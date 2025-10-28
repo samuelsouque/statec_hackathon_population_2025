@@ -1,90 +1,261 @@
 {
-  "2014":{
-    "beneficiary_avg": 158645,
-    "pension_beneficiary_increase": "3.64%",
-    "retirement_age": 61.6,
-    "life_m": 79.61,
-    "life_f": 84.17,
-    "fertiliy_rate": 1.5
-  },
-  "2015":{
-    "beneficiary_avg": 164679,
-    "pension_beneficiary_increase": "3.80%",
-    "retirement_age": 61.6,
-    "life_m": 79.74,
-    "life_f": 84.61,
-    "fertiliy_rate": 1.47
-  },
-  "2016":{
-    
-    "beneficiary_avg": 170618,
-    "pension_beneficiary_increase": "3.61%",
-    "retirement_age": 61.6,
-    "life_m": 79.92,
-    "life_f": 84.38,
-    "fertiliy_rate": 1.4
-  },
-  "2017": {
-    
-    "beneficiary_avg": 175893,
-    "pension_beneficiary_increase": "3.09%",
-    "retirement_age": 61.8,
-    "life_m": 79.95,
-    "life_f": 84.49,
-    "fertiliy_rate": 1.39
-  },
-  "2018": {
-    
-    "beneficiary_avg": 181281,
-    "pension_beneficiary_increase": "3.06%",
-    "retirement_age": 61.7,
-    "life_m": 80.01,
-    "life_f": 84.47,
-    "fertiliy_rate": 1.38
-  },
-  "2019": {
-    
-    "beneficiary_avg": 187412,
-    "pension_beneficiary_increase": "3.38%",
-    "retirement_age": 61.7,
-    "life_m": 80.07,
-    "life_f": 84.61,
-    "fertiliy_rate": 1.34
-  },
-  "2020": {
-    
-    "beneficiary_avg": 194441,
-    "pension_beneficiary_increase": "3.75%",
-    "retirement_age": 61.7,
-    "life_m": 80.29,
-    "life_f": 84.83,
-    "fertiliy_rate": 1.37
-  },
-  "2021": {
-    
-    "beneficiary_avg": 200974,
-    "pension_beneficiary_increase": "3.36%",
-    "retirement_age": 61.6,
-    "life_m": 80.49,
-    "life_f": 84.83,
-    "fertiliy_rate": 1.38
-  },
-  "2022": {
-    
-    "beneficiary_avg": 208212,
-    "pension_beneficiary_increase": "3.60%",
-    "retirement_age": 61.6,
-    "life_m": 80.98,
-    "life_f": 84.98,
-    "fertiliy_rate": 1.31
-  },
-  "2023": {
-    
-    "beneficiary_avg": 216100,
-    "pension_beneficiary_increase": "3.79%",
-    "retirement_age": 61.4,
-    "life_m": 81.2,
-    "life_f": 85.26,
-    "fertiliy_rate": 1.25
-  }
+    "1947": {
+        "population": null,
+        "beneficiary_avg": null,
+        "life_m": 61.7,
+        "life_f": 65.8,
+        "retirement_age": null
+    },
+    "1973": {
+        "population": null,
+        "beneficiary_avg": null,
+        "life_m": 67.3,
+        "life_f": 74.5,
+        "retirement_age": null
+    },
+    "1981": {
+        "population": null,
+        "beneficiary_avg": null,
+        "life_m": 70.0,
+        "life_f": 76.7,
+        "retirement_age": null
+    },
+    "1986": {
+        "population": null,
+        "beneficiary_avg": null,
+        "life_m": 70.6,
+        "life_f": 77.9,
+        "retirement_age": null
+    },
+    "1991": {
+        "population": null,
+        "beneficiary_avg": null,
+        "life_m": 72.6,
+        "life_f": 79.1,
+        "retirement_age": null
+    },
+    "1996": {
+        "population": null,
+        "beneficiary_avg": null,
+        "life_m": 73.53,
+        "life_f": 79.62,
+        "retirement_age": null
+    },
+    "2000": {
+        "population": null,
+        "beneficiary_avg": 108281.0,
+        "life_m": null,
+        "life_f": null,
+        "retirement_age": 62.4
+    },
+    "2001": {
+        "population": 439000.0,
+        "beneficiary_avg": 109956.0,
+        "life_m": 74.8,
+        "life_f": 81.01,
+        "retirement_age": 62.5
+    },
+    "2002": {
+        "population": 444050.0,
+        "beneficiary_avg": 112105.0,
+        "life_m": null,
+        "life_f": null,
+        "retirement_age": 62.2
+    },
+    "2003": {
+        "population": 448300.0,
+        "beneficiary_avg": 114505.0,
+        "life_m": null,
+        "life_f": null,
+        "retirement_age": 62.0
+    },
+    "2004": {
+        "population": 454960.0,
+        "beneficiary_avg": 117020.0,
+        "life_m": null,
+        "life_f": null,
+        "retirement_age": 61.7
+    },
+    "2005": {
+        "population": 461230.0,
+        "beneficiary_avg": 119923.0,
+        "life_m": null,
+        "life_f": null,
+        "retirement_age": 61.6
+    },
+    "2006": {
+        "population": 469086.0,
+        "beneficiary_avg": 123193.0,
+        "life_m": 76.6,
+        "life_f": 81.8,
+        "retirement_age": 61.5
+    },
+    "2007": {
+        "population": 476187.0,
+        "beneficiary_avg": 126701.0,
+        "life_m": null,
+        "life_f": null,
+        "retirement_age": 61.5
+    },
+    "2008": {
+        "population": 483799.0,
+        "beneficiary_avg": 130196.0,
+        "life_m": null,
+        "life_f": null,
+        "retirement_age": 61.4
+    },
+    "2009": {
+        "population": 493500.0,
+        "beneficiary_avg": 133995.0,
+        "life_m": null,
+        "life_f": null,
+        "retirement_age": 61.4
+    },
+    "2010": {
+        "population": 502066.0,
+        "beneficiary_avg": 138483.0,
+        "life_m": null,
+        "life_f": null,
+        "retirement_age": 61.3
+    },
+    "2011": {
+        "population": 511840.0,
+        "beneficiary_avg": 143249.0,
+        "life_m": 78.6,
+        "life_f": 83.4,
+        "retirement_age": 61.4
+    },
+    "2012": {
+        "population": 524853.0,
+        "beneficiary_avg": 148225.0,
+        "life_m": 78.9,
+        "life_f": 83.4,
+        "retirement_age": 61.7
+    },
+    "2013": {
+        "population": 537039.0,
+        "beneficiary_avg": 153080.0,
+        "life_m": 79.3,
+        "life_f": 84.0,
+        "retirement_age": 61.6
+    },
+    "2014": {
+        "population": 549680.0,
+        "beneficiary_avg": 158645.0,
+        "life_m": 79.6,
+        "life_f": 84.2,
+        "retirement_age": 61.6
+    },
+    "2015": {
+        "population": 562958.0,
+        "beneficiary_avg": 164679.0,
+        "life_m": 79.7,
+        "life_f": 84.6,
+        "retirement_age": 61.6
+    },
+    "2016": {
+        "population": 576249.0,
+        "beneficiary_avg": 170618.0,
+        "life_m": 79.923495566085,
+        "life_f": 84.3840984479308,
+        "retirement_age": 61.6
+    },
+    "2017": {
+        "population": 590667.0,
+        "beneficiary_avg": 175893.0,
+        "life_m": 79.9524716357209,
+        "life_f": 84.4912017777248,
+        "retirement_age": 61.8
+    },
+    "2018": {
+        "population": 602005.0,
+        "beneficiary_avg": 181281.0,
+        "life_m": 80.005847767741,
+        "life_f": 84.4732194649691,
+        "retirement_age": 61.7
+    },
+    "2019": {
+        "population": 613894.0,
+        "beneficiary_avg": 187412.0,
+        "life_m": 80.1,
+        "life_f": 84.6,
+        "retirement_age": 61.7
+    },
+    "2020": {
+        "population": 626108.0,
+        "beneficiary_avg": 194441.0,
+        "life_m": 80.3,
+        "life_f": 84.8,
+        "retirement_age": 61.7
+    },
+    "2021": {
+        "population": 634730.0,
+        "beneficiary_avg": 200974.0,
+        "life_m": 80.4927845133518,
+        "life_f": 84.8252331364547,
+        "retirement_age": 61.6
+    },
+    "2022": {
+        "population": 645397.0,
+        "beneficiary_avg": 208212.0,
+        "life_m": 80.9802509079452,
+        "life_f": 84.9818539956985,
+        "retirement_age": 61.6
+    },
+    "2023": {
+        "population": 660809.0,
+        "beneficiary_avg": 216100.0,
+        "life_m": 81.2025234247845,
+        "life_f": 85.2574178319497,
+        "retirement_age": 61.4
+    },
+    "2024": {
+        "population": 672050.0,
+        "beneficiary_avg": 223680.788,
+        "life_m": 81.39192515909755,
+        "life_f": 85.38666834046934,
+        "retirement_age": 61.629999999999995
+    },
+    "2025": {
+        "population": 681973.0,
+        "beneficiary_avg": 231527.51004304,
+        "life_m": 81.58430395448444,
+        "life_f": 85.5135248684648,
+        "retirement_age": 61.629999999999995
+    },
+    "2026": {
+        "population": 694923.243632881,
+        "beneficiary_avg": 239649.49509534985,
+        "life_m": 81.7771374583801,
+        "life_f": 85.6405698635712,
+        "retirement_age": 61.629999999999995
+    },
+    "2027": {
+        "population": 708119.4043477447,
+        "beneficiary_avg": 248056.39938329472,
+        "life_m": 81.97042674553825,
+        "life_f": 85.76780360578874,
+        "retirement_age": 61.629999999999995
+    },
+    "2028": {
+        "population": 721566.1519572159,
+        "beneficiary_avg": 256758.2178736607,
+        "life_m": 82.16417289325292,
+        "life_f": 85.89522637553358,
+        "retirement_age": 61.629999999999995
+    },
+    "2029": {
+        "population": 735268.2449507602,
+        "beneficiary_avg": 265765.29615666874,
+        "life_m": 82.35837698136446,
+        "life_f": 86.02283845363853,
+        "retirement_age": 61.629999999999995
+    },
+    "2030": {
+        "population": 749230.5321786023,
+        "beneficiary_avg": 275088.3427458447,
+        "life_m": 82.5530400922655,
+        "life_f": 86.15064012135358,
+        "retirement_age": 61.629999999999995
+    }
 }
