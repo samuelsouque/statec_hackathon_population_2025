@@ -35,43 +35,66 @@ angular.module('myApp', [])
             }
         };
 
-        // Initialisation du graphique
-        $scope.updateChart = function() {
-            const filteredData = {};
-            for (let year = $scope.startYear; year <= $scope.endYear; year++) {
-                if ($scope.data[year]) {
-                    filteredData[year] = $scope.data[year];
-                }
-            }
+                $scope.updateChart = function() {
+    const filteredData = {};
+    for (let year = $scope.startYear; year <= $scope.endYear; year++) {
+        if ($scope.data[year]) {
+            filteredData[year] = $scope.data[year];
+        }
+    }
 
-            const labels = Object.keys(filteredData);
-            const values = Object.values(filteredData);
+    const labels = Object.keys(filteredData);
+    const retirement_age = labels.map(year => filteredData[year].retirement_age);
+    const life_m = labels.map(year => parseFloat(filteredData[year].life_m));
+    const life_f = labels.map(year => filteredData[year].life_f);
 
-            const ctx = document.getElementById('myChart').getContext('2d');
-            if ($scope.chart) {
-                $scope.chart.destroy();
-            }
+    const ctx = document.getElementById('myChart').getContext('2d');
+    if ($scope.chart) {
+        $scope.chart.destroy();
+    }
 
-            $scope.chart = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: labels,
-                    datasets: [{
-                        label: 'Valeurs',
-                        data: values,
-                        borderColor: 'rgb(75, 192, 192)',
-                        tension: 0.1
-                    }]
+    $scope.chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'Retirement Age',
+                    data: retirement_age,
+                    borderColor: 'rgb(75, 192, 192)',
+                    tension: 0.1
                 },
-                options: {
-                    responsive: true,
-                    scales: {
-                        y: {
-                            beginAtZero: false
-                        }
+                {
+                    label: 'Life Expectancy Male',
+                    data: life_m,
+                    borderColor: 'rgb(255, 99, 132)',
+                    tension: 0.1
+                },
+                {
+                    label: 'Life Expectancy Female',
+                    data: life_f,
+                    borderColor: 'rgb(54, 162, 235)',
+                    tension: 0.1
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            interaction: {
+                mode: 'index',
+                intersect: false
+            },
+            scales: {
+                y: {
+                    beginAtZero: false,
+                    title: {
+                        display: true,
+                        text: 'Value'
                     }
                 }
-            });
+            }
+        }
+    });
         };
 
         // Initialisation de la carte du Luxembourg
