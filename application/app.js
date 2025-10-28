@@ -19,9 +19,7 @@ angular.module('myApp', [])
 
         // Load map data
         $http.get('POP65PLUS_commune_total.json').then(function(response) {
-            const dataString = JSON.stringify(response.data);
-            const correctedString = decodeURIComponent(escape(dataString));
-            $scope.pop65 = JSON.parse(correctedString);
+            $scope.pop65 = response.data;
         });
 
         // Variables of current view
@@ -178,15 +176,15 @@ $scope.updateChart = function() {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo($scope.map);
 
-            L.marker(luxembourgCoordinates).addTo($scope.map)
-                .bindPopup('Luxembourg')
-                .openPopup();
+            //L.marker(luxembourgCoordinates).addTo($scope.map)
+            //    .bindPopup('Luxembourg')
+            //    .openPopup();
 
             // Administrative limits of Luxembourg
             $http.get('limadmin.geojson').then(function(response) {
                 var geojson = response.data['communes'];
 
-                var filtered_pop65 = $scope.pop65.filter(item => item.YEAR === '2024')
+                var filtered_pop65 = $scope.pop65.filter(item => item.YEAR === 2024)
 
                 var pop65ByCommune = filtered_pop65.reduce(function(acc, item) {
                     if (!acc[item.COMMUNE_NOM]) {
@@ -196,12 +194,10 @@ $scope.updateChart = function() {
                     return acc;
                 }, {});
 
-                console.log(pop65ByCommune)
-
                 L.geoJSON(geojson, {
                     style: function(feature) {
                         if ((typeof pop65ByCommune[feature.properties.COMMUNE] === 'undefined') || (typeof (pop65ByCommune[feature.properties.COMMUNE][0]) === 'undefined')) {
-                            console.log(feature.properties.COMMUNE, )//, pop65ByCommune[feature.properties.COMMUNE][0]['PERC65PLUS'])
+                            console.log(feature.properties.COMMUNE)//, pop65ByCommune[feature.properties.COMMUNE][0]['PERC65PLUS'])
                         } else {
                         return {
                             //color: $scope.getColor(feature.properties.PERC65PLUS),
