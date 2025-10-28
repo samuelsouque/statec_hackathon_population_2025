@@ -39,13 +39,17 @@
 
     <!-- Contenu principal -->
     <div id="main">
-        <h1>{{ currentTitle }}</h1>
+        <h1 class="title-hero">{{ currentTitle }}</h1>
 
-        <!-- Boutons de navigation -->
         <div class="navButtons">
-            <button ng-click="showView('chart')">Graphique</button>
-            <button ng-click="showView('map')">Carte</button>
+            <button class="nav-btn" ng-click="showView('chart')" ng-class="{'active': currentView === 'chart'}">
+                <i class="fas fa-chart-line"></i> Graphique
+            </button>
+            <button class="nav-btn" ng-click="showView('map')" ng-class="{'active': currentView === 'map'}">
+                <i class="fas fa-map-marked-alt"></i> Carte
+            </button>
         </div>
+
 
         <!-- Conteneur pour le graphique -->
         <div id="chartContainer">
