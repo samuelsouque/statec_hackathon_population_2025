@@ -6,6 +6,7 @@
 - Dataset 3 - inspection générale de la sécurité sociale, https://data.public.lu/fr/datasets/r/14cc7614-c864-42c8-997e-de52dca22ef5, version/date — **License:** (e.g., CC0 1.0)
 - Dataset 4 - STATEC, https://lustat.statec.lu/vis?lc=en&tm=age&pg=0&snb=179&df[ds]=ds-release&df[id]=DF_B1102&df[ag]=LU1&df[vs]=1.0&dq=A..&pd=2014%2C2023&to[TIME_PERIOD]=false&isAvailabilityDisabled=false&lo=1&lom=LASTNOBSERVATIONS, Identifier: DF_B1102 - Licence: https://statistiques.public.lu/en/support/notice.html
 - TBD: Dataset 5 - Registre national des personnes physiques RNPP : Pyramide d'âge par commune - population age pyramid per municipality - source: https://data.public.lu/en/datasets/registre-national-des-personnes-physiques-rnpp-pyramide-dage-par-commune-population-age-pyramid-per-municipality/#/resources
+- TBD: Dataset 6 - Limites administratives du Grand-Duché de Luxembourg: [Administration du cadastre et de la topographie](https://data.public.lu/en/datasets/limites-administratives-du-grand-duche-de-luxembourg/) (license Creative Commons Zero)
 
 ## Scope & transformations
 - Dataset 1: 
@@ -57,4 +58,3 @@
 
 - Minimal steps to re-create results from clean sources.
 - Deterministic seeds & environment listed in `requirements.txt`/`environment.yml`.
->>>>>>> Stashed changes

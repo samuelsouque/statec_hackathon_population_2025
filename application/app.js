@@ -1,15 +1,15 @@
 angular.module('myApp', [])
     .controller('MainCtrl', function($scope, $http, $timeout) {
-        // Chargement des données JSON
+        // Load graph data
         $http.get('data.json').then(function(response) {
             $scope.data = response.data;
 
-            // Initialisation des années disponibles
+            // Init years available
             $scope.years = Object.keys($scope.data).map(Number).sort();
             $scope.startYear = $scope.years[0];
             $scope.endYear = $scope.years[$scope.years.length - 1];
 
-            // Initialisation du graphique
+            // Init graph
             $scope.updateChart();
 
             // Initialize slider (pass the $scope)
@@ -17,13 +17,18 @@ angular.module('myApp', [])
 
         });
 
+        // Load map data
+        $http.get('POP65PLUS_commune_total.json').then(function(response) {
+            const dataString = JSON.stringify(response.data);
+            const correctedString = decodeURIComponent(escape(dataString));
+            $scope.pop65 = JSON.parse(correctedString);
+        });
 
-
-        // Variable pour gérer la vue actuelle
+        // Variables of current view
         $scope.currentView = 'chart';
         $scope.currentTitle = 'Graphique Interactif (1990-2025)';
 
-        // Fonction pour afficher une vue
+        // Function to show a view
         $scope.showView = function(view) {
             $scope.currentView = view;
             if (view === 'chart') {
@@ -46,6 +51,7 @@ angular.module('myApp', [])
             }
         };
 
+        // Init graph
 $scope.updateChart = function() {
     const filteredData = {};
     for (let year = $scope.startYear; year <= $scope.endYear; year++) {
@@ -161,7 +167,7 @@ $scope.updateChart = function() {
 };
 
 
-        // Initialisation de la carte du Luxembourg
+        // Init Luxembourg's map
         $scope.initMap = function() {
             const luxembourgCoordinates = [49.8153, 6.1296];
             const zoomLevel = 9;
@@ -175,9 +181,78 @@ $scope.updateChart = function() {
             L.marker(luxembourgCoordinates).addTo($scope.map)
                 .bindPopup('Luxembourg')
                 .openPopup();
+
+            // Administrative limits of Luxembourg
+            $http.get('limadmin.geojson').then(function(response) {
+                var geojson = response.data['communes'];
+
+                var filtered_pop65 = $scope.pop65.filter(item => item.YEAR === '2024')
+
+                var pop65ByCommune = filtered_pop65.reduce(function(acc, item) {
+                    if (!acc[item.COMMUNE_NOM]) {
+                        acc[item.COMMUNE_NOM] = [];
+                    }
+                    acc[item.COMMUNE_NOM].push(item);
+                    return acc;
+                }, {});
+
+                console.log(pop65ByCommune)
+
+                L.geoJSON(geojson, {
+                    style: function(feature) {
+                        if ((typeof pop65ByCommune[feature.properties.COMMUNE] === 'undefined') || (typeof (pop65ByCommune[feature.properties.COMMUNE][0]) === 'undefined')) {
+                            console.log(feature.properties.COMMUNE, )//, pop65ByCommune[feature.properties.COMMUNE][0]['PERC65PLUS'])
+                        } else {
+                        return {
+                            //color: $scope.getColor(feature.properties.PERC65PLUS),
+                            weight: 0,
+                            fillColor: $scope.getColor(pop65ByCommune[feature.properties.COMMUNE][0]['PERC65PLUS']),
+                            fillOpacity: 0.5
+                        };
+                    }
+                }
+                }).addTo($scope.map);
+                    // if (feature.properties.COMMUNE === "Diekirch") { // Fill other countries in grey
+                    //     return {
+                    //         //color: "#cccccc",
+                    //         weight: 0,
+                    //         fillColor: "red",
+                    //         fillOpacity: 0.5
+                    //     };
+                    // } else if ( feature.properties.COMMUNE === "Bettendorf") {// No fill for Luxembourg
+                    //     return {
+                    //         //color: "white",
+                    //         weight: 0,
+                    //         fillColor: "blue",
+                    //         fillOpacity: 0.5
+                    //     };
+                    // }
+            });
+
+            // Add legend
+            // const legend = L.control({ position: 'bottomright' });
+            // legend.onAdd = function(map) {
+            // const div = L.DomUtil.create('div', 'info legend');
+            // const grades = [0, 4.07, 8.135, 12.2, 16.27];
+            // const labels = [];
+            // grades.forEach((grade, index) => {
+            //     labels.push(
+            //     `<i style="background:${getColor(grade)}"></i> ${grade}${grades[index + 1] ? `–${grades[index + 1]}` : '+'}`
+            //     );
+            // });
+            // div.innerHTML = labels.join('<br>');
+            // return div;
+            // };
+            // legend.addTo($scope.map);
         };
 
-        // Gestion du menu latéral
+        // Function for heatmap color
+        $scope.getColor = function(value) {
+            const scale = chroma.scale(['blue', 'green', 'red']).domain([0, 16.27]);
+            return scale(value).hex();
+        }
+
+        // Lateral menu
         $scope.toggleMenu = function() {
             const menu = document.getElementById('sideMenu');
             const main = document.getElementById('main');
@@ -195,6 +270,6 @@ $scope.updateChart = function() {
             document.getElementById('main').style.marginLeft = '0';
         };
 
-        // Afficher la vue par défaut
+        // Default view
         $scope.showView('chart');
     });
