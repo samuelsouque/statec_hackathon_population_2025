@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
 <head>
-    <title>Graphique Interactif avec AngularJS et Chart.js</title>
+    <meta charset="UTF-8">
+    <title>Application Graphique & Carte</title>
+    <!-- AngularJS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>
+    <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Mon style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Mon script -->
     <script src="app.js"></script>
 </head>
 <body ng-controller="MainCtrl">
-    <h1>Graphique Interactif (1990-2025)</h1>
+    <!-- Bouton pour ouvrir/fermer le menu -->
+    <button id="menuButton" ng-click="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </button>
 
-    <!-- Sélecteur de période -->
-    <label for="startYear">Année de début :</label>
-    <select id="startYear" ng-model="startYear" ng-change="updateChart()">
-        <option ng-repeat="year in years" value="{{year}}">{{year}}</option>
-    </select>
+    <!-- Menu latéral -->
+    <div id="sideMenu">
+        <a href="javascript:void(0)" class="closebtn" ng-click="closeMenu()">&times;</a>
+        <a href="javascript:void(0)" ng-click="showView('chart')">Graphique</a>
+        <a href="javascript:void(0)" ng-click="showView('map')">Carte</a>
+    </div>
 
-    <label for="endYear">Année de fin :</label>
-    <select id="endYear" ng-model="endYear" ng-change="updateChart()">
-        <option ng-repeat="year in years" value="{{year}}">{{year}}</option>
-    </select>
+    <!-- Contenu principal -->
+    <div id="main">
+        <h1>{{ currentTitle }}</h1>
 
-    <!-- Conteneur pour le graphique -->
-    <div style="width: 80%; margin: 0 auto;">
-        <canvas id="myChart"></canvas>
+        <!-- Boutons de navigation -->
+        <div class="navButtons">
+            <button ng-click="showView('chart')">Graphique</button>
+            <button ng-click="showView('map')">Carte</button>
+        </div>
+
+        <!-- Conteneur pour le graphique -->
+        <div id="chartContainer">
+            <!-- Sélecteur de période -->
+            <label for="startYear">Année de début :</label>
+            <select id="startYear" ng-model="startYear" ng-options="year for year in years" ng-change="updateChart()"></select>
+
+            <label for="endYear">Année de fin :</label>
+            <select id="endYear" ng-model="endYear" ng-options="year for year in years" ng-change="updateChart()"></select>
+
+            <div style="width: 80%; margin: 20px auto;">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Conteneur pour la carte -->
+        <div id="mapContainer">
+            <div id="map"></div>
+        </div>
     </div>
 </body>
 </html>

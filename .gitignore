@@ -4,3 +4,6 @@
 
 # Python
 .ipynb_checkpoints
+
+# Miscellaneous
+*.swp
