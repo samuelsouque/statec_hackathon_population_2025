@@ -38,6 +38,11 @@ angular.module('myApp', [])
                     $scope.initMap();
                     $scope.mapInitialized = true;
                 }
+            } else if (view === 'info'){
+                $scope.currentTitle = 'Information';
+                document.getElementById('chartContainer').style.display = 'none';
+                document.getElementById('mapContainer').style.display = 'none';
+                document.getElementById('infoContainer').style.display = 'block';
             }
         };
 
