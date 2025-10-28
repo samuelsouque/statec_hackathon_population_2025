@@ -1,3 +1,20 @@
+/* Subtitle / catchy phrase */
+#infoContainer > p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+/* Optional: make it stand out slightly with a subtle background */
+#infoContainer > p {
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
 /* Container for the search */
 #here {
     max-width: 800px;

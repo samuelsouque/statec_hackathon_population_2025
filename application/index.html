@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Mon style CSS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="third_page.css">
     <!-- Mon script -->
     <script src="app.js"></script>
 
@@ -77,6 +78,7 @@
         </div>
 
         <div id="infoContainer" ng-show="currentView === 'info'">
+            <p> [Text placeholder for a catchy phrase!]</p>
             <div id="here" ng-controller="SearchCtrl">
                 <input type="text" ng-model="searchQuery" placeholder="Search commune..." ng-change="filterResults()" />
                     <table>
