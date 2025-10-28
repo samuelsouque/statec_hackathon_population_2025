@@ -17,6 +17,12 @@
     <link rel="stylesheet" href="style.css">
     <!-- Mon script -->
     <script src="app.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/nouislider@15.6.1/dist/nouislider.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/nouislider@15.6.1/dist/nouislider.min.js"></script>
+
+    <script src="slider.js"></script>
+
 </head>
 <body ng-controller="MainCtrl">
     <!-- Bouton pour ouvrir/fermer le menu -->
@@ -44,11 +50,12 @@
         <!-- Conteneur pour le graphique -->
         <div id="chartContainer">
             <!-- Sélecteur de période -->
-            <label for="startYear">Année de début :</label>
-            <select id="startYear" ng-model="startYear" ng-options="year for year in years" ng-change="updateChart()"></select>
-
-            <label for="endYear">Année de fin :</label>
-            <select id="endYear" ng-model="endYear" ng-options="year for year in years" ng-change="updateChart()"></select>
+            
+            <label for="yearSlider">Sélectionnez la période :</label>
+            <div id="yearSlider" style="margin: 20px 0;"></div>
+            <div style="margin-top: 10px;">
+                <button id="playButton" class="btn">▶️ Play</button>
+            </div>
 
             <div style="width: 80%; margin: 20px auto;">
                 <canvas id="myChart"></canvas>

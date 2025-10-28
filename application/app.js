@@ -11,7 +11,12 @@ angular.module('myApp', [])
 
             // Initialisation du graphique
             $scope.updateChart();
+
+            // Initialize slider (pass the $scope)
+            initYearSlider($scope);
         });
+
+
 
         // Variable pour gérer la vue actuelle
         $scope.currentView = 'chart';
