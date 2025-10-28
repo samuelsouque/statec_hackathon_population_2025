@@ -19,7 +19,9 @@ angular.module('myApp', [])
 
         // Load map data
         $http.get('POP65PLUS_commune_total.json').then(function(response) {
-            $scope.pop65 = response.data;
+            const dataString = JSON.stringify(response.data);
+            const correctedString = decodeURIComponent(escape(dataString));
+            $scope.pop65 = JSON.parse(correctedString);
         });
 
         // Variables of current view
@@ -189,10 +191,13 @@ $scope.updateChart = function() {
                     return acc;
                 }, {});
 
+                console.log(pop65ByCommune)
+
                 L.geoJSON(geojson, {
                     style: function(feature) {
-                        if ((typeof pop65ByCommune[feature.properties.COMMUNE] !== 'undefined') && (typeof (pop65ByCommune[feature.properties.COMMUNE][0]) !== 'undefined')) {
-                        console.log(feature.properties.COMMUNE, pop65ByCommune[feature.properties.COMMUNE][0]['PERC65PLUS'])
+                        if ((typeof pop65ByCommune[feature.properties.COMMUNE] === 'undefined') || (typeof (pop65ByCommune[feature.properties.COMMUNE][0]) === 'undefined')) {
+                            console.log(feature.properties.COMMUNE, )//, pop65ByCommune[feature.properties.COMMUNE][0]['PERC65PLUS'])
+                        } else {
                         return {
                             //color: $scope.getColor(feature.properties.PERC65PLUS),
                             weight: 0,
