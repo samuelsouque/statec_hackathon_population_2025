@@ -176,9 +176,9 @@ $scope.updateChart = function() {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo($scope.map);
 
-            L.marker(luxembourgCoordinates).addTo($scope.map)
-                .bindPopup('Luxembourg')
-                .openPopup();
+            //L.marker(luxembourgCoordinates).addTo($scope.map)
+            //    .bindPopup('Luxembourg')
+            //    .openPopup();
 
             // Administrative limits of Luxembourg
             $http.get('limadmin.geojson').then(function(response) {
