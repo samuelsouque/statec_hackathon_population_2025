@@ -272,4 +272,37 @@ $scope.updateChart = function() {
 
         // Default view
         $scope.showView('chart');
+    })
+    .controller('SearchCtrl', function($scope, $http) {
+        $scope.allData = [];
+        $scope.filteredResults = [];
+
+        // Load Excel file
+        $http.get('liens_seniors_hackathon.xlsx', { responseType: 'arraybuffer' }).then(function(response) {
+            const data = new Uint8Array(response.data);
+            const workbook = XLSX.read(data, { type: 'array' });
+            const firstSheetName = workbook.SheetNames[0];
+            const worksheet = workbook.Sheets[firstSheetName];
+            const json = XLSX.utils.sheet_to_json(worksheet, { defval: "" });
+
+            // json will now look like:
+            // [
+            //   { commune: "Beaufort", lien: "https://...", "texte lien": "Centre de jour paiperleck" },
+            //   { commune: "Bech", lien: "https://...", "texte lien": "Le Service Seniors" },
+            //   ...
+            // ]
+            console.log(json)
+            $scope.allData = json;
+            $scope.filteredResults = [...$scope.allData];
+        });
+
+
+        $scope.filterResults = function() {
+            const query = ($scope.searchQuery || '').toLowerCase();
+            $scope.filteredResults = $scope.allData.filter(item =>
+                item.commune.toLowerCase().includes(query)
+            );
+};
+
+
     });

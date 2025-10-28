@@ -23,6 +23,8 @@
     <link href="https://cdn.jsdelivr.net/npm/nouislider@15.6.1/dist/nouislider.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/nouislider@15.6.1/dist/nouislider.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
     <script src="slider.js"></script>
 
 </head>
@@ -74,9 +76,19 @@
             <div id="map"></div>
         </div>
 
-        <div id="infoContainer">
-            bellooooo
-        </div>
+        <div id="infoContainer" ng-show="currentView === 'info'">
+            <div id="here" ng-controller="SearchCtrl">
+                <input type="text" ng-model="searchQuery" placeholder="Search commune..." ng-change="filterResults()" />
+                    <table>
+                    <tr ng-repeat="item in filteredResults">
+                        <td>{{ item.commune }}</td>
+                        <td><a ng-href="{{ item.lien }}" target="_blank">{{ item["texte lien"] }}</a></td>
+                    </tr>
+                    </table>
+
+            </div>
     </div>
+
+</div>
 </body>
 </html>
