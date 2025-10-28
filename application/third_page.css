@@ -1,0 +1,87 @@
+/* Container for the search */
+#here {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+}
+
+/* Search input */
+#here input[type="text"] {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+#here input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Table styling */
+#here table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#here th, #here td {
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+#here th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+/* Alternate row colors */
+#here tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect on rows */
+#here tr:hover {
+    background-color: #f1f8ff;
+}
+
+/* Links */
+#here a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#here a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    #here table, #here tr, #here td, #here th {
+        display: block;
+        width: 100%;
+    }
+
+    #here tr {
+        margin-bottom: 15px;
+    }
+
+    #here td {
+        padding-left: 50%;
+        position: relative;
+    }
+
+    #here td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 15px;
+        font-weight: bold;
+    }
+}
