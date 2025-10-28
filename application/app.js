@@ -35,67 +35,120 @@ angular.module('myApp', [])
             }
         };
 
-                $scope.updateChart = function() {
+$scope.updateChart = function() {
     const filteredData = {};
     for (let year = $scope.startYear; year <= $scope.endYear; year++) {
-        if ($scope.data[year]) {
-            filteredData[year] = $scope.data[year];
+        if ($scope.data[year]) filteredData[year] = $scope.data[year];
+    }
+
+    const datasets = [];
+
+    // Helper to split into past/future for line datasets
+    function splitByYear(dataObj, key, color, labelBase) {
+        const past = [];
+        const future = [];
+        for (const yearStr of Object.keys(dataObj)) {
+            const year = parseInt(yearStr);
+            const d = dataObj[yearStr];
+            if (d[key] != null) {
+                const point = { x: year, y: parseFloat(d[key]) };
+                (year > 2024 ? future : past).push(point);
+            }
+        }
+        if (past.length) {
+            datasets.push({
+                label: `${labelBase} (observed)`,
+                data: past,
+                borderColor: color,
+                tension: 0.1,
+                fill: false,
+                yAxisID: 'y1'
+            });
+        }
+        if (future.length) {
+            datasets.push({
+                label: `${labelBase} (expected)`,
+                data: future,
+                borderColor: color,
+                borderDash: [6, 4],
+                tension: 0.1,
+                fill: false,
+                yAxisID: 'y1'
+            });
         }
     }
 
-    const labels = Object.keys(filteredData);
-    const retirement_age = labels.map(year => filteredData[year].retirement_age);
-    const life_m = labels.map(year => parseFloat(filteredData[year].life_m));
-    const life_f = labels.map(year => filteredData[year].life_f);
+    // --- Line datasets
+    splitByYear(filteredData, 'retirement_age', 'rgb(75, 192, 192)', 'Retirement Age');
+    splitByYear(filteredData, 'life_m', 'rgb(255, 99, 132)', 'Life Expectancy Male');
+    splitByYear(filteredData, 'life_f', 'rgb(54, 162, 235)', 'Life Expectancy Female');
+
+    // --- Bar (histogram) dataset: split past/future too
+    const pointsBeneficiaryPast = [];
+    const pointsBeneficiaryFuture = [];
+    for (const yearStr of Object.keys(filteredData)) {
+        const year = parseInt(yearStr);
+        const d = filteredData[yearStr];
+        if (d.beneficiary_avg !== null) {
+            const point = { x: year, y: d.beneficiary_avg };
+            (year > 2024 ? pointsBeneficiaryFuture : pointsBeneficiaryPast).push(point);
+        }
+    }
+
+    if (pointsBeneficiaryPast.length) {
+        datasets.push({
+            label: 'Beneficiaries (avg, observed)',
+            data: pointsBeneficiaryPast,
+            type: 'bar',
+            backgroundColor: 'rgba(255, 206, 86, 0.7)',
+            borderColor: 'rgb(255, 206, 86)',
+            borderWidth: 1,
+            yAxisID: 'y2'
+        });
+    }
+
+    if (pointsBeneficiaryFuture.length) {
+        datasets.push({
+            label: 'Beneficiaries (avg, expected)',
+            data: pointsBeneficiaryFuture,
+            type: 'bar',
+            backgroundColor: 'rgba(255, 206, 86, 0.3)', // lighter
+            borderColor: 'rgba(255, 206, 86, 0.6)',
+            borderWidth: 1,
+            yAxisID: 'y2'
+        });
+    }
 
     const ctx = document.getElementById('myChart').getContext('2d');
-    if ($scope.chart) {
-        $scope.chart.destroy();
-    }
+    if ($scope.chart) $scope.chart.destroy();
 
     $scope.chart = new Chart(ctx, {
         type: 'line',
-        data: {
-            labels: labels,
-            datasets: [
-                {
-                    label: 'Retirement Age',
-                    data: retirement_age,
-                    borderColor: 'rgb(75, 192, 192)',
-                    tension: 0.1
-                },
-                {
-                    label: 'Life Expectancy Male',
-                    data: life_m,
-                    borderColor: 'rgb(255, 99, 132)',
-                    tension: 0.1
-                },
-                {
-                    label: 'Life Expectancy Female',
-                    data: life_f,
-                    borderColor: 'rgb(54, 162, 235)',
-                    tension: 0.1
-                }
-            ]
-        },
+        data: { datasets },
         options: {
             responsive: true,
-            interaction: {
-                mode: 'index',
-                intersect: false
-            },
+            interaction: { mode: 'index', intersect: false },
             scales: {
-                y: {
-                    beginAtZero: false,
-                    title: {
-                        display: true,
-                        text: 'Value'
-                    }
+                x: {
+                    type: 'linear',
+                    title: { display: true, text: 'Year' }
+                },
+                y1: {
+                    position: 'left',
+                    title: { display: true, text: 'Years / Expectancy' },
+                    beginAtZero: false
+                },
+                y2: {
+                    position: 'right',
+                    title: { display: true, text: 'Beneficiaries (avg)' },
+                    grid: { drawOnChartArea: false },
+                    beginAtZero: true
                 }
             }
         }
     });
-        };
+};
+
 
         // Initialisation de la carte du Luxembourg
         $scope.initMap = function() {
