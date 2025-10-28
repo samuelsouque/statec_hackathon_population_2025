@@ -1,5 +1,5 @@
 angular.module('myApp', [])
-    .controller('MainCtrl', function($scope, $http) {
+    .controller('MainCtrl', function($scope, $http, $timeout) {
         // Chargement des données JSON
         $http.get('data.json').then(function(response) {
             $scope.data = response.data;
@@ -13,7 +13,8 @@ angular.module('myApp', [])
             $scope.updateChart();
 
             // Initialize slider (pass the $scope)
-            initYearSlider($scope);
+            initYearSlider($scope, $timeout);
+
         });
 
 
