@@ -1,0 +1,3602 @@
+[
+  {
+    "COMMUNE_NOM": "Beaufort",
+    "YEAR": "2020",
+    "POP65PLUS": 334.0,
+    "PERC65PLUS": 11.545108883511926
+  },
+  {
+    "COMMUNE_NOM": "Beaufort",
+    "YEAR": "2021",
+    "POP65PLUS": 346.0,
+    "PERC65PLUS": 11.618535930154469
+  },
+  {
+    "COMMUNE_NOM": "Beaufort",
+    "YEAR": "2022",
+    "POP65PLUS": 373.0,
+    "PERC65PLUS": 12.34690499834492
+  },
+  {
+    "COMMUNE_NOM": "Beaufort",
+    "YEAR": "2023",
+    "POP65PLUS": 374.0,
+    "PERC65PLUS": 12.27034120734908
+  },
+  {
+    "COMMUNE_NOM": "Beaufort",
+    "YEAR": "2024",
+    "POP65PLUS": 387.0,
+    "PERC65PLUS": 12.387964148527528
+  },
+  {
+    "COMMUNE_NOM": "Beaufort",
+    "YEAR": "2025",
+    "POP65PLUS": 401.0,
+    "PERC65PLUS": 12.948014207297383
+  },
+  {
+    "COMMUNE_NOM": "Bech",
+    "YEAR": "2020",
+    "POP65PLUS": 199.0,
+    "PERC65PLUS": 15.26073619631902
+  },
+  {
+    "COMMUNE_NOM": "Bech",
+    "YEAR": "2021",
+    "POP65PLUS": 205.0,
+    "PERC65PLUS": 15.5893536121673
+  },
+  {
+    "COMMUNE_NOM": "Bech",
+    "YEAR": "2022",
+    "POP65PLUS": 212.0,
+    "PERC65PLUS": 15.785554728220404
+  },
+  {
+    "COMMUNE_NOM": "Bech",
+    "YEAR": "2023",
+    "POP65PLUS": 218.0,
+    "PERC65PLUS": 16.220238095238095
+  },
+  {
+    "COMMUNE_NOM": "Bech",
+    "YEAR": "2024",
+    "POP65PLUS": 233.0,
+    "PERC65PLUS": 16.89630166787527
+  },
+  {
+    "COMMUNE_NOM": "Bech",
+    "YEAR": "2025",
+    "POP65PLUS": 242.0,
+    "PERC65PLUS": 17.63848396501458
+  },
+  {
+    "COMMUNE_NOM": "Beckerich",
+    "YEAR": "2020",
+    "POP65PLUS": 358.0,
+    "PERC65PLUS": 12.910205553552109
+  },
+  {
+    "COMMUNE_NOM": "Beckerich",
+    "YEAR": "2021",
+    "POP65PLUS": 374.0,
+    "PERC65PLUS": 13.472622478386167
+  },
+  {
+    "COMMUNE_NOM": "Beckerich",
+    "YEAR": "2022",
+    "POP65PLUS": 393.0,
+    "PERC65PLUS": 13.68384401114206
+  },
+  {
+    "COMMUNE_NOM": "Beckerich",
+    "YEAR": "2023",
+    "POP65PLUS": 417.0,
+    "PERC65PLUS": 14.469118667591951
+  },
+  {
+    "COMMUNE_NOM": "Beckerich",
+    "YEAR": "2024",
+    "POP65PLUS": 453.0,
+    "PERC65PLUS": 15.73463007988885
+  },
+  {
+    "COMMUNE_NOM": "Beckerich",
+    "YEAR": "2025",
+    "POP65PLUS": 483.0,
+    "PERC65PLUS": 16.776658562000694
+  },
+  {
+    "COMMUNE_NOM": "Berdorf",
+    "YEAR": "2020",
+    "POP65PLUS": 287.0,
+    "PERC65PLUS": 14.83204134366925
+  },
+  {
+    "COMMUNE_NOM": "Berdorf",
+    "YEAR": "2021",
+    "POP65PLUS": 294.0,
+    "PERC65PLUS": 14.811083123425693
+  },
+  {
+    "COMMUNE_NOM": "Berdorf",
+    "YEAR": "2022",
+    "POP65PLUS": 299.0,
+    "PERC65PLUS": 14.493456131846823
+  },
+  {
+    "COMMUNE_NOM": "Berdorf",
+    "YEAR": "2023",
+    "POP65PLUS": 309.0,
+    "PERC65PLUS": 13.76391982182628
+  },
+  {
+    "COMMUNE_NOM": "Berdorf",
+    "YEAR": "2024",
+    "POP65PLUS": 337.0,
+    "PERC65PLUS": 15.078299776286352
+  },
+  {
+    "COMMUNE_NOM": "Berdorf",
+    "YEAR": "2025",
+    "POP65PLUS": 344.0,
+    "PERC65PLUS": 15.336602764155147
+  },
+  {
+    "COMMUNE_NOM": "Bertrange",
+    "YEAR": "2020",
+    "POP65PLUS": 1434.0,
+    "PERC65PLUS": 16.906390002357934
+  },
+  {
+    "COMMUNE_NOM": "Bertrange",
+    "YEAR": "2021",
+    "POP65PLUS": 1479.0,
+    "PERC65PLUS": 17.28005608131791
+  },
+  {
+    "COMMUNE_NOM": "Bertrange",
+    "YEAR": "2022",
+    "POP65PLUS": 1504.0,
+    "PERC65PLUS": 17.339174544616093
+  },
+  {
+    "COMMUNE_NOM": "Bertrange",
+    "YEAR": "2023",
+    "POP65PLUS": 1524.0,
+    "PERC65PLUS": 17.359608155826404
+  },
+  {
+    "COMMUNE_NOM": "Bertrange",
+    "YEAR": "2024",
+    "POP65PLUS": 1581.0,
+    "PERC65PLUS": 17.379355831592832
+  },
+  {
+    "COMMUNE_NOM": "Bertrange",
+    "YEAR": "2025",
+    "POP65PLUS": 1605.0,
+    "PERC65PLUS": 16.99671714497511
+  },
+  {
+    "COMMUNE_NOM": "Bettembourg",
+    "YEAR": "2020",
+    "POP65PLUS": 1914.0,
+    "PERC65PLUS": 16.923076923076923
+  },
+  {
+    "COMMUNE_NOM": "Bettembourg",
+    "YEAR": "2021",
+    "POP65PLUS": 1960.0,
+    "PERC65PLUS": 17.16587843755474
+  },
+  {
+    "COMMUNE_NOM": "Bettembourg",
+    "YEAR": "2022",
+    "POP65PLUS": 1982.0,
+    "PERC65PLUS": 17.360077078041517
+  },
+  {
+    "COMMUNE_NOM": "Bettembourg",
+    "YEAR": "2023",
+    "POP65PLUS": 2036.0,
+    "PERC65PLUS": 17.7212986334755
+  },
+  {
+    "COMMUNE_NOM": "Bettembourg",
+    "YEAR": "2024",
+    "POP65PLUS": 2117.0,
+    "PERC65PLUS": 18.206054351565182
+  },
+  {
+    "COMMUNE_NOM": "Bettembourg",
+    "YEAR": "2025",
+    "POP65PLUS": 2163.0,
+    "PERC65PLUS": 18.58407079646018
+  },
+  {
+    "COMMUNE_NOM": "Bettendorf",
+    "YEAR": "2020",
+    "POP65PLUS": 425.0,
+    "PERC65PLUS": 14.614855570839064
+  },
+  {
+    "COMMUNE_NOM": "Bettendorf",
+    "YEAR": "2021",
+    "POP65PLUS": 442.0,
+    "PERC65PLUS": 15.080177413851928
+  },
+  {
+    "COMMUNE_NOM": "Bettendorf",
+    "YEAR": "2022",
+    "POP65PLUS": 453.0,
+    "PERC65PLUS": 14.95543083525916
+  },
+  {
+    "COMMUNE_NOM": "Bettendorf",
+    "YEAR": "2023",
+    "POP65PLUS": 460.0,
+    "PERC65PLUS": 14.78624236579878
+  },
+  {
+    "COMMUNE_NOM": "Bettendorf",
+    "YEAR": "2024",
+    "POP65PLUS": 473.0,
+    "PERC65PLUS": 15.179717586649552
+  },
+  {
+    "COMMUNE_NOM": "Bettendorf",
+    "YEAR": "2025",
+    "POP65PLUS": 485.0,
+    "PERC65PLUS": 15.953947368421051
+  },
+  {
+    "COMMUNE_NOM": "Betzdorf",
+    "YEAR": "2020",
+    "POP65PLUS": 491.0,
+    "PERC65PLUS": 11.891499152337127
+  },
+  {
+    "COMMUNE_NOM": "Betzdorf",
+    "YEAR": "2021",
+    "POP65PLUS": 524.0,
+    "PERC65PLUS": 12.678441809823374
+  },
+  {
+    "COMMUNE_NOM": "Betzdorf",
+    "YEAR": "2022",
+    "POP65PLUS": 536.0,
+    "PERC65PLUS": 13.08913308913309
+  },
+  {
+    "COMMUNE_NOM": "Betzdorf",
+    "YEAR": "2023",
+    "POP65PLUS": 550.0,
+    "PERC65PLUS": 13.355998057309373
+  },
+  {
+    "COMMUNE_NOM": "Betzdorf",
+    "YEAR": "2024",
+    "POP65PLUS": 579.0,
+    "PERC65PLUS": 14.222549742078114
+  },
+  {
+    "COMMUNE_NOM": "Betzdorf",
+    "YEAR": "2025",
+    "POP65PLUS": 605.0,
+    "PERC65PLUS": 14.748902974158948
+  },
+  {
+    "COMMUNE_NOM": "Bissen",
+    "YEAR": "2020",
+    "POP65PLUS": 420.0,
+    "PERC65PLUS": 12.879484820607177
+  },
+  {
+    "COMMUNE_NOM": "Bissen",
+    "YEAR": "2021",
+    "POP65PLUS": 443.0,
+    "PERC65PLUS": 13.395827033565164
+  },
+  {
+    "COMMUNE_NOM": "Bissen",
+    "YEAR": "2022",
+    "POP65PLUS": 489.0,
+    "PERC65PLUS": 14.37389770723104
+  },
+  {
+    "COMMUNE_NOM": "Bissen",
+    "YEAR": "2023",
+    "POP65PLUS": 524.0,
+    "PERC65PLUS": 15.027244049326068
+  },
+  {
+    "COMMUNE_NOM": "Bissen",
+    "YEAR": "2024",
+    "POP65PLUS": 558.0,
+    "PERC65PLUS": 15.785007072135784
+  },
+  {
+    "COMMUNE_NOM": "Bissen",
+    "YEAR": "2025",
+    "POP65PLUS": 586.0,
+    "PERC65PLUS": 16.57239819004525
+  },
+  {
+    "COMMUNE_NOM": "Biwer",
+    "YEAR": "2020",
+    "POP65PLUS": 266.0,
+    "PERC65PLUS": 14.12639405204461
+  },
+  {
+    "COMMUNE_NOM": "Biwer",
+    "YEAR": "2021",
+    "POP65PLUS": 279.0,
+    "PERC65PLUS": 14.569190600522196
+  },
+  {
+    "COMMUNE_NOM": "Biwer",
+    "YEAR": "2022",
+    "POP65PLUS": 285.0,
+    "PERC65PLUS": 14.812889812889813
+  },
+  {
+    "COMMUNE_NOM": "Biwer",
+    "YEAR": "2023",
+    "POP65PLUS": 289.0,
+    "PERC65PLUS": 15.122972265829407
+  },
+  {
+    "COMMUNE_NOM": "Biwer",
+    "YEAR": "2024",
+    "POP65PLUS": 302.0,
+    "PERC65PLUS": 15.803244374672945
+  },
+  {
+    "COMMUNE_NOM": "Biwer",
+    "YEAR": "2025",
+    "POP65PLUS": 308.0,
+    "PERC65PLUS": 16.142557651991616
+  },
+  {
+    "COMMUNE_NOM": "Boulaide",
+    "YEAR": "2020",
+    "POP65PLUS": 211.0,
+    "PERC65PLUS": 15.289855072463768
+  },
+  {
+    "COMMUNE_NOM": "Boulaide",
+    "YEAR": "2021",
+    "POP65PLUS": 219.0,
+    "PERC65PLUS": 15.379213483146067
+  },
+  {
+    "COMMUNE_NOM": "Boulaide",
+    "YEAR": "2022",
+    "POP65PLUS": 226.0,
+    "PERC65PLUS": 15.342837746096402
+  },
+  {
+    "COMMUNE_NOM": "Boulaide",
+    "YEAR": "2023",
+    "POP65PLUS": 242.0,
+    "PERC65PLUS": 16.047745358090186
+  },
+  {
+    "COMMUNE_NOM": "Boulaide",
+    "YEAR": "2024",
+    "POP65PLUS": 254.0,
+    "PERC65PLUS": 16.157760814249365
+  },
+  {
+    "COMMUNE_NOM": "Boulaide",
+    "YEAR": "2025",
+    "POP65PLUS": 263.0,
+    "PERC65PLUS": 16.593059936908517
+  },
+  {
+    "COMMUNE_NOM": "Bourscheid",
+    "YEAR": "2020",
+    "POP65PLUS": 195.0,
+    "PERC65PLUS": 11.403508771929824
+  },
+  {
+    "COMMUNE_NOM": "Bourscheid",
+    "YEAR": "2021",
+    "POP65PLUS": 205.0,
+    "PERC65PLUS": 12.023460410557185
+  },
+  {
+    "COMMUNE_NOM": "Bourscheid",
+    "YEAR": "2022",
+    "POP65PLUS": 218.0,
+    "PERC65PLUS": 13.030484160191271
+  },
+  {
+    "COMMUNE_NOM": "Bourscheid",
+    "YEAR": "2023",
+    "POP65PLUS": 224.0,
+    "PERC65PLUS": 12.993039443155451
+  },
+  {
+    "COMMUNE_NOM": "Bourscheid",
+    "YEAR": "2024",
+    "POP65PLUS": 227.0,
+    "PERC65PLUS": 12.890403180011356
+  },
+  {
+    "COMMUNE_NOM": "Bourscheid",
+    "YEAR": "2025",
+    "POP65PLUS": 234.0,
+    "PERC65PLUS": 13.101903695408732
+  },
+  {
+    "COMMUNE_NOM": "Bous-Waldbredimus",
+    "YEAR": "2020",
+    "POP65PLUS": 396.0,
+    "PERC65PLUS": 13.646463053908985
+  },
+  {
+    "COMMUNE_NOM": "Bous-Waldbredimus",
+    "YEAR": "2021",
+    "POP65PLUS": 410.0,
+    "PERC65PLUS": 13.960414140385629
+  },
+  {
+    "COMMUNE_NOM": "Bous-Waldbredimus",
+    "YEAR": "2022",
+    "POP65PLUS": 419.0,
+    "PERC65PLUS": 13.869162703211774
+  },
+  {
+    "COMMUNE_NOM": "Bous-Waldbredimus",
+    "YEAR": "2023",
+    "POP65PLUS": 443.0,
+    "PERC65PLUS": 14.703870002138125
+  },
+  {
+    "COMMUNE_NOM": "Bous-Waldbredimus",
+    "YEAR": "2024",
+    "POP65PLUS": 462.0,
+    "PERC65PLUS": 14.696132596685082
+  },
+  {
+    "COMMUNE_NOM": "Bous-Waldbredimus",
+    "YEAR": "2025",
+    "POP65PLUS": 477.0,
+    "PERC65PLUS": 14.7319556753519
+  },
+  {
+    "COMMUNE_NOM": "Clervaux",
+    "YEAR": "2020",
+    "POP65PLUS": 864.0,
+    "PERC65PLUS": 15.481096577674252
+  },
+  {
+    "COMMUNE_NOM": "Clervaux",
+    "YEAR": "2021",
+    "POP65PLUS": 897.0,
+    "PERC65PLUS": 15.53784860557769
+  },
+  {
+    "COMMUNE_NOM": "Clervaux",
+    "YEAR": "2022",
+    "POP65PLUS": 931.0,
+    "PERC65PLUS": 15.631296171927469
+  },
+  {
+    "COMMUNE_NOM": "Clervaux",
+    "YEAR": "2023",
+    "POP65PLUS": 1001.0,
+    "PERC65PLUS": 16.38566050090031
+  },
+  {
+    "COMMUNE_NOM": "Clervaux",
+    "YEAR": "2024",
+    "POP65PLUS": 1042.0,
+    "PERC65PLUS": 16.568611861981235
+  },
+  {
+    "COMMUNE_NOM": "Clervaux",
+    "YEAR": "2025",
+    "POP65PLUS": 1059.0,
+    "PERC65PLUS": 16.793529971455754
+  },
+  {
+    "COMMUNE_NOM": "Colmar-Berg",
+    "YEAR": "2020",
+    "POP65PLUS": 305.0,
+    "PERC65PLUS": 13.757329724853406
+  },
+  {
+    "COMMUNE_NOM": "Colmar-Berg",
+    "YEAR": "2021",
+    "POP65PLUS": 313.0,
+    "PERC65PLUS": 13.85568835768039
+  },
+  {
+    "COMMUNE_NOM": "Colmar-Berg",
+    "YEAR": "2022",
+    "POP65PLUS": 322.0,
+    "PERC65PLUS": 13.690476190476192
+  },
+  {
+    "COMMUNE_NOM": "Colmar-Berg",
+    "YEAR": "2023",
+    "POP65PLUS": 311.0,
+    "PERC65PLUS": 13.039832285115304
+  },
+  {
+    "COMMUNE_NOM": "Colmar-Berg",
+    "YEAR": "2024",
+    "POP65PLUS": 328.0,
+    "PERC65PLUS": 13.225806451612904
+  },
+  {
+    "COMMUNE_NOM": "Colmar-Berg",
+    "YEAR": "2025",
+    "POP65PLUS": 333.0,
+    "PERC65PLUS": 13.459983831851252
+  },
+  {
+    "COMMUNE_NOM": "Consdorf",
+    "YEAR": "2020",
+    "POP65PLUS": 306.0,
+    "PERC65PLUS": 14.440773949976403
+  },
+  {
+    "COMMUNE_NOM": "Consdorf",
+    "YEAR": "2021",
+    "POP65PLUS": 329.0,
+    "PERC65PLUS": 15.431519699812382
+  },
+  {
+    "COMMUNE_NOM": "Consdorf",
+    "YEAR": "2022",
+    "POP65PLUS": 327.0,
+    "PERC65PLUS": 15.527065527065528
+  },
+  {
+    "COMMUNE_NOM": "Consdorf",
+    "YEAR": "2023",
+    "POP65PLUS": 328.0,
+    "PERC65PLUS": 15.5893536121673
+  },
+  {
+    "COMMUNE_NOM": "Consdorf",
+    "YEAR": "2024",
+    "POP65PLUS": 356.0,
+    "PERC65PLUS": 16.888045540796963
+  },
+  {
+    "COMMUNE_NOM": "Consdorf",
+    "YEAR": "2025",
+    "POP65PLUS": 369.0,
+    "PERC65PLUS": 17.504743833017077
+  },
+  {
+    "COMMUNE_NOM": "Contern",
+    "YEAR": "2020",
+    "POP65PLUS": 731.0,
+    "PERC65PLUS": 18.35300025106704
+  },
+  {
+    "COMMUNE_NOM": "Contern",
+    "YEAR": "2021",
+    "POP65PLUS": 735.0,
+    "PERC65PLUS": 17.72793053545586
+  },
+  {
+    "COMMUNE_NOM": "Contern",
+    "YEAR": "2022",
+    "POP65PLUS": 793.0,
+    "PERC65PLUS": 18.292964244521336
+  },
+  {
+    "COMMUNE_NOM": "Contern",
+    "YEAR": "2023",
+    "POP65PLUS": 815.0,
+    "PERC65PLUS": 18.12319323993773
+  },
+  {
+    "COMMUNE_NOM": "Contern",
+    "YEAR": "2024",
+    "POP65PLUS": 825.0,
+    "PERC65PLUS": 17.493638676844782
+  },
+  {
+    "COMMUNE_NOM": "Contern",
+    "YEAR": "2025",
+    "POP65PLUS": 858.0,
+    "PERC65PLUS": 17.50663129973475
+  },
+  {
+    "COMMUNE_NOM": "Dalheim",
+    "YEAR": "2020",
+    "POP65PLUS": 366.0,
+    "PERC65PLUS": 15.501905972045742
+  },
+  {
+    "COMMUNE_NOM": "Dalheim",
+    "YEAR": "2021",
+    "POP65PLUS": 372.0,
+    "PERC65PLUS": 15.584415584415584
+  },
+  {
+    "COMMUNE_NOM": "Dalheim",
+    "YEAR": "2022",
+    "POP65PLUS": 389.0,
+    "PERC65PLUS": 16.18809821057012
+  },
+  {
+    "COMMUNE_NOM": "Dalheim",
+    "YEAR": "2023",
+    "POP65PLUS": 387.0,
+    "PERC65PLUS": 16.301600673967986
+  },
+  {
+    "COMMUNE_NOM": "Dalheim",
+    "YEAR": "2024",
+    "POP65PLUS": 415.0,
+    "PERC65PLUS": 17.3785594639866
+  },
+  {
+    "COMMUNE_NOM": "Dalheim",
+    "YEAR": "2025",
+    "POP65PLUS": 427.0,
+    "PERC65PLUS": 18.13163481953291
+  },
+  {
+    "COMMUNE_NOM": "Diekirch",
+    "YEAR": "2020",
+    "POP65PLUS": 1286.0,
+    "PERC65PLUS": 18.181818181818183
+  },
+  {
+    "COMMUNE_NOM": "Diekirch",
+    "YEAR": "2021",
+    "POP65PLUS": 1340.0,
+    "PERC65PLUS": 18.77539582457615
+  },
+  {
+    "COMMUNE_NOM": "Diekirch",
+    "YEAR": "2022",
+    "POP65PLUS": 1387.0,
+    "PERC65PLUS": 19.075780497868244
+  },
+  {
+    "COMMUNE_NOM": "Diekirch",
+    "YEAR": "2023",
+    "POP65PLUS": 1418.0,
+    "PERC65PLUS": 19.585635359116026
+  },
+  {
+    "COMMUNE_NOM": "Diekirch",
+    "YEAR": "2024",
+    "POP65PLUS": 1438.0,
+    "PERC65PLUS": 19.60196292257361
+  },
+  {
+    "COMMUNE_NOM": "Diekirch",
+    "YEAR": "2025",
+    "POP65PLUS": 1466.0,
+    "PERC65PLUS": 19.754750033688182
+  },
+  {
+    "COMMUNE_NOM": "Differdange",
+    "YEAR": "2020",
+    "POP65PLUS": 3191.0,
+    "PERC65PLUS": 11.526929884766824
+  },
+  {
+    "COMMUNE_NOM": "Differdange",
+    "YEAR": "2021",
+    "POP65PLUS": 3261.0,
+    "PERC65PLUS": 11.4714883737292
+  },
+  {
+    "COMMUNE_NOM": "Differdange",
+    "YEAR": "2022",
+    "POP65PLUS": 3390.0,
+    "PERC65PLUS": 11.556949510789895
+  },
+  {
+    "COMMUNE_NOM": "Differdange",
+    "YEAR": "2023",
+    "POP65PLUS": 3558.0,
+    "PERC65PLUS": 11.81196467698028
+  },
+  {
+    "COMMUNE_NOM": "Differdange",
+    "YEAR": "2024",
+    "POP65PLUS": 3679.0,
+    "PERC65PLUS": 11.949072720776902
+  },
+  {
+    "COMMUNE_NOM": "Differdange",
+    "YEAR": "2025",
+    "POP65PLUS": 3760.0,
+    "PERC65PLUS": 12.007025387194634
+  },
+  {
+    "COMMUNE_NOM": "Dippach",
+    "YEAR": "2020",
+    "POP65PLUS": 690.0,
+    "PERC65PLUS": 15.586175739778632
+  },
+  {
+    "COMMUNE_NOM": "Dippach",
+    "YEAR": "2021",
+    "POP65PLUS": 717.0,
+    "PERC65PLUS": 15.990187332738625
+  },
+  {
+    "COMMUNE_NOM": "Dippach",
+    "YEAR": "2022",
+    "POP65PLUS": 757.0,
+    "PERC65PLUS": 16.542832167832167
+  },
+  {
+    "COMMUNE_NOM": "Dippach",
+    "YEAR": "2023",
+    "POP65PLUS": 786.0,
+    "PERC65PLUS": 17.131647776809068
+  },
+  {
+    "COMMUNE_NOM": "Dippach",
+    "YEAR": "2024",
+    "POP65PLUS": 824.0,
+    "PERC65PLUS": 17.65588172273409
+  },
+  {
+    "COMMUNE_NOM": "Dippach",
+    "YEAR": "2025",
+    "POP65PLUS": 844.0,
+    "PERC65PLUS": 17.98040051129101
+  },
+  {
+    "COMMUNE_NOM": "Dudelange",
+    "YEAR": "2020",
+    "POP65PLUS": 3427.0,
+    "PERC65PLUS": 15.997572588927271
+  },
+  {
+    "COMMUNE_NOM": "Dudelange",
+    "YEAR": "2021",
+    "POP65PLUS": 3506.0,
+    "PERC65PLUS": 16.22246899870442
+  },
+  {
+    "COMMUNE_NOM": "Dudelange",
+    "YEAR": "2022",
+    "POP65PLUS": 3603.0,
+    "PERC65PLUS": 16.44154421830793
+  },
+  {
+    "COMMUNE_NOM": "Dudelange",
+    "YEAR": "2023",
+    "POP65PLUS": 3674.0,
+    "PERC65PLUS": 16.64250770067041
+  },
+  {
+    "COMMUNE_NOM": "Dudelange",
+    "YEAR": "2024",
+    "POP65PLUS": 3768.0,
+    "PERC65PLUS": 16.97067963788677
+  },
+  {
+    "COMMUNE_NOM": "Dudelange",
+    "YEAR": "2025",
+    "POP65PLUS": 3873.0,
+    "PERC65PLUS": 17.350595824746886
+  },
+  {
+    "COMMUNE_NOM": "Echternach",
+    "YEAR": "2020",
+    "POP65PLUS": 1157.0,
+    "PERC65PLUS": 20.63124108416548
+  },
+  {
+    "COMMUNE_NOM": "Echternach",
+    "YEAR": "2021",
+    "POP65PLUS": 1156.0,
+    "PERC65PLUS": 20.31277455631699
+  },
+  {
+    "COMMUNE_NOM": "Echternach",
+    "YEAR": "2022",
+    "POP65PLUS": 1206.0,
+    "PERC65PLUS": 20.559154449369245
+  },
+  {
+    "COMMUNE_NOM": "Echternach",
+    "YEAR": "2023",
+    "POP65PLUS": 1205.0,
+    "PERC65PLUS": 20.538605761036305
+  },
+  {
+    "COMMUNE_NOM": "Echternach",
+    "YEAR": "2024",
+    "POP65PLUS": 1228.0,
+    "PERC65PLUS": 20.68733153638814
+  },
+  {
+    "COMMUNE_NOM": "Echternach",
+    "YEAR": "2025",
+    "POP65PLUS": 1235.0,
+    "PERC65PLUS": 20.5217680292456
+  },
+  {
+    "COMMUNE_NOM": "Ell",
+    "YEAR": "2020",
+    "POP65PLUS": 183.0,
+    "PERC65PLUS": 12.232620320855617
+  },
+  {
+    "COMMUNE_NOM": "Ell",
+    "YEAR": "2021",
+    "POP65PLUS": 181.0,
+    "PERC65PLUS": 11.799217731421122
+  },
+  {
+    "COMMUNE_NOM": "Ell",
+    "YEAR": "2022",
+    "POP65PLUS": 192.0,
+    "PERC65PLUS": 12.19047619047619
+  },
+  {
+    "COMMUNE_NOM": "Ell",
+    "YEAR": "2023",
+    "POP65PLUS": 202.0,
+    "PERC65PLUS": 12.736443883984869
+  },
+  {
+    "COMMUNE_NOM": "Ell",
+    "YEAR": "2024",
+    "POP65PLUS": 230.0,
+    "PERC65PLUS": 13.990267639902676
+  },
+  {
+    "COMMUNE_NOM": "Ell",
+    "YEAR": "2025",
+    "POP65PLUS": 242.0,
+    "PERC65PLUS": 14.491017964071856
+  },
+  {
+    "COMMUNE_NOM": "Erpeldange-sur-Sûre",
+    "YEAR": "2020",
+    "POP65PLUS": 476.0,
+    "PERC65PLUS": 19.27906034831916
+  },
+  {
+    "COMMUNE_NOM": "Erpeldange-sur-Sûre",
+    "YEAR": "2021",
+    "POP65PLUS": 475.0,
+    "PERC65PLUS": 19.36404402772116
+  },
+  {
+    "COMMUNE_NOM": "Erpeldange-sur-Sûre",
+    "YEAR": "2022",
+    "POP65PLUS": 489.0,
+    "PERC65PLUS": 19.96733360555329
+  },
+  {
+    "COMMUNE_NOM": "Erpeldange-sur-Sûre",
+    "YEAR": "2023",
+    "POP65PLUS": 495.0,
+    "PERC65PLUS": 19.887505022097223
+  },
+  {
+    "COMMUNE_NOM": "Erpeldange-sur-Sûre",
+    "YEAR": "2024",
+    "POP65PLUS": 527.0,
+    "PERC65PLUS": 20.300462249614792
+  },
+  {
+    "COMMUNE_NOM": "Erpeldange-sur-Sûre",
+    "YEAR": "2025",
+    "POP65PLUS": 544.0,
+    "PERC65PLUS": 20.505088578967207
+  },
+  {
+    "COMMUNE_NOM": "Esch-sur-Alzette",
+    "YEAR": "2020",
+    "POP65PLUS": 5148.0,
+    "PERC65PLUS": 14.262363208200584
+  },
+  {
+    "COMMUNE_NOM": "Esch-sur-Alzette",
+    "YEAR": "2021",
+    "POP65PLUS": 5139.0,
+    "PERC65PLUS": 14.224424269264835
+  },
+  {
+    "COMMUNE_NOM": "Esch-sur-Alzette",
+    "YEAR": "2022",
+    "POP65PLUS": 5196.0,
+    "PERC65PLUS": 14.215753330962215
+  },
+  {
+    "COMMUNE_NOM": "Esch-sur-Alzette",
+    "YEAR": "2023",
+    "POP65PLUS": 5292.0,
+    "PERC65PLUS": 14.14330384584547
+  },
+  {
+    "COMMUNE_NOM": "Esch-sur-Alzette",
+    "YEAR": "2024",
+    "POP65PLUS": 5417.0,
+    "PERC65PLUS": 14.28458414640578
+  },
+  {
+    "COMMUNE_NOM": "Esch-sur-Alzette",
+    "YEAR": "2025",
+    "POP65PLUS": 5536.0,
+    "PERC65PLUS": 14.476987447698743
+  },
+  {
+    "COMMUNE_NOM": "Esch-sur-Sûre",
+    "YEAR": "2020",
+    "POP65PLUS": 356.0,
+    "PERC65PLUS": 12.12121212121212
+  },
+  {
+    "COMMUNE_NOM": "Esch-sur-Sûre",
+    "YEAR": "2021",
+    "POP65PLUS": 368.0,
+    "PERC65PLUS": 12.22591362126246
+  },
+  {
+    "COMMUNE_NOM": "Esch-sur-Sûre",
+    "YEAR": "2022",
+    "POP65PLUS": 389.0,
+    "PERC65PLUS": 12.516087516087516
+  },
+  {
+    "COMMUNE_NOM": "Esch-sur-Sûre",
+    "YEAR": "2023",
+    "POP65PLUS": 408.0,
+    "PERC65PLUS": 12.91139240506329
+  },
+  {
+    "COMMUNE_NOM": "Esch-sur-Sûre",
+    "YEAR": "2024",
+    "POP65PLUS": 434.0,
+    "PERC65PLUS": 13.235742604452575
+  },
+  {
+    "COMMUNE_NOM": "Esch-sur-Sûre",
+    "YEAR": "2025",
+    "POP65PLUS": 465.0,
+    "PERC65PLUS": 13.959771840288202
+  },
+  {
+    "COMMUNE_NOM": "Ettelbruck",
+    "YEAR": "2020",
+    "POP65PLUS": 1562.0,
+    "PERC65PLUS": 16.981952598390954
+  },
+  {
+    "COMMUNE_NOM": "Ettelbruck",
+    "YEAR": "2021",
+    "POP65PLUS": 1580.0,
+    "PERC65PLUS": 16.936434773287598
+  },
+  {
+    "COMMUNE_NOM": "Ettelbruck",
+    "YEAR": "2022",
+    "POP65PLUS": 1622.0,
+    "PERC65PLUS": 16.822236050611906
+  },
+  {
+    "COMMUNE_NOM": "Ettelbruck",
+    "YEAR": "2023",
+    "POP65PLUS": 1658.0,
+    "PERC65PLUS": 16.81882734834652
+  },
+  {
+    "COMMUNE_NOM": "Ettelbruck",
+    "YEAR": "2024",
+    "POP65PLUS": 1696.0,
+    "PERC65PLUS": 16.71100601044438
+  },
+  {
+    "COMMUNE_NOM": "Ettelbruck",
+    "YEAR": "2025",
+    "POP65PLUS": 1738.0,
+    "PERC65PLUS": 17.02252693437806
+  },
+  {
+    "COMMUNE_NOM": "Feulen",
+    "YEAR": "2020",
+    "POP65PLUS": 296.0,
+    "PERC65PLUS": 13.13220940550133
+  },
+  {
+    "COMMUNE_NOM": "Feulen",
+    "YEAR": "2021",
+    "POP65PLUS": 330.0,
+    "PERC65PLUS": 14.32913590968302
+  },
+  {
+    "COMMUNE_NOM": "Feulen",
+    "YEAR": "2022",
+    "POP65PLUS": 337.0,
+    "PERC65PLUS": 14.34653043848446
+  },
+  {
+    "COMMUNE_NOM": "Feulen",
+    "YEAR": "2023",
+    "POP65PLUS": 348.0,
+    "PERC65PLUS": 14.34460016488046
+  },
+  {
+    "COMMUNE_NOM": "Feulen",
+    "YEAR": "2024",
+    "POP65PLUS": 374.0,
+    "PERC65PLUS": 15.353037766830871
+  },
+  {
+    "COMMUNE_NOM": "Feulen",
+    "YEAR": "2025",
+    "POP65PLUS": 382.0,
+    "PERC65PLUS": 15.617334423548652
+  },
+  {
+    "COMMUNE_NOM": "Fischbach",
+    "YEAR": "2020",
+    "POP65PLUS": 102.0,
+    "PERC65PLUS": 8.239095315024231
+  },
+  {
+    "COMMUNE_NOM": "Fischbach",
+    "YEAR": "2021",
+    "POP65PLUS": 105.0,
+    "PERC65PLUS": 8.413461538461538
+  },
+  {
+    "COMMUNE_NOM": "Fischbach",
+    "YEAR": "2022",
+    "POP65PLUS": 121.0,
+    "PERC65PLUS": 9.350850077279754
+  },
+  {
+    "COMMUNE_NOM": "Fischbach",
+    "YEAR": "2023",
+    "POP65PLUS": 126.0,
+    "PERC65PLUS": 9.851446442533229
+  },
+  {
+    "COMMUNE_NOM": "Fischbach",
+    "YEAR": "2024",
+    "POP65PLUS": 135.0,
+    "PERC65PLUS": 10.336906584992343
+  },
+  {
+    "COMMUNE_NOM": "Fischbach",
+    "YEAR": "2025",
+    "POP65PLUS": 148.0,
+    "PERC65PLUS": 11.10277569392348
+  },
+  {
+    "COMMUNE_NOM": "Flaxweiler",
+    "YEAR": "2020",
+    "POP65PLUS": 257.0,
+    "PERC65PLUS": 11.892642295233689
+  },
+  {
+    "COMMUNE_NOM": "Flaxweiler",
+    "YEAR": "2021",
+    "POP65PLUS": 268.0,
+    "PERC65PLUS": 12.367328103368711
+  },
+  {
+    "COMMUNE_NOM": "Flaxweiler",
+    "YEAR": "2022",
+    "POP65PLUS": 280.0,
+    "PERC65PLUS": 12.698412698412698
+  },
+  {
+    "COMMUNE_NOM": "Flaxweiler",
+    "YEAR": "2023",
+    "POP65PLUS": 296.0,
+    "PERC65PLUS": 13.534522176497484
+  },
+  {
+    "COMMUNE_NOM": "Flaxweiler",
+    "YEAR": "2024",
+    "POP65PLUS": 324.0,
+    "PERC65PLUS": 14.204296361245069
+  },
+  {
+    "COMMUNE_NOM": "Flaxweiler",
+    "YEAR": "2025",
+    "POP65PLUS": 332.0,
+    "PERC65PLUS": 14.644905161005733
+  },
+  {
+    "COMMUNE_NOM": "Frisange",
+    "YEAR": "2020",
+    "POP65PLUS": 699.0,
+    "PERC65PLUS": 14.697224558452485
+  },
+  {
+    "COMMUNE_NOM": "Frisange",
+    "YEAR": "2021",
+    "POP65PLUS": 733.0,
+    "PERC65PLUS": 15.35721768279908
+  },
+  {
+    "COMMUNE_NOM": "Frisange",
+    "YEAR": "2022",
+    "POP65PLUS": 769.0,
+    "PERC65PLUS": 15.745290745290747
+  },
+  {
+    "COMMUNE_NOM": "Frisange",
+    "YEAR": "2023",
+    "POP65PLUS": 817.0,
+    "PERC65PLUS": 16.528424033987456
+  },
+  {
+    "COMMUNE_NOM": "Frisange",
+    "YEAR": "2024",
+    "POP65PLUS": 842.0,
+    "PERC65PLUS": 16.581331232768807
+  },
+  {
+    "COMMUNE_NOM": "Frisange",
+    "YEAR": "2025",
+    "POP65PLUS": 866.0,
+    "PERC65PLUS": 17.158708143451555
+  },
+  {
+    "COMMUNE_NOM": "Garnich",
+    "YEAR": "2020",
+    "POP65PLUS": 306.0,
+    "PERC65PLUS": 13.883847549909255
+  },
+  {
+    "COMMUNE_NOM": "Garnich",
+    "YEAR": "2021",
+    "POP65PLUS": 320.0,
+    "PERC65PLUS": 14.103129131776113
+  },
+  {
+    "COMMUNE_NOM": "Garnich",
+    "YEAR": "2022",
+    "POP65PLUS": 338.0,
+    "PERC65PLUS": 14.844093104962669
+  },
+  {
+    "COMMUNE_NOM": "Garnich",
+    "YEAR": "2023",
+    "POP65PLUS": 356.0,
+    "PERC65PLUS": 15.471534115601912
+  },
+  {
+    "COMMUNE_NOM": "Garnich",
+    "YEAR": "2024",
+    "POP65PLUS": 366.0,
+    "PERC65PLUS": 15.837299870186069
+  },
+  {
+    "COMMUNE_NOM": "Garnich",
+    "YEAR": "2025",
+    "POP65PLUS": 376.0,
+    "PERC65PLUS": 15.738802846379238
+  },
+  {
+    "COMMUNE_NOM": "Goesdorf",
+    "YEAR": "2020",
+    "POP65PLUS": 193.0,
+    "PERC65PLUS": 12.192040429564118
+  },
+  {
+    "COMMUNE_NOM": "Goesdorf",
+    "YEAR": "2021",
+    "POP65PLUS": 197.0,
+    "PERC65PLUS": 12.115621156211562
+  },
+  {
+    "COMMUNE_NOM": "Goesdorf",
+    "YEAR": "2022",
+    "POP65PLUS": 200.0,
+    "PERC65PLUS": 12.048192771084338
+  },
+  {
+    "COMMUNE_NOM": "Goesdorf",
+    "YEAR": "2023",
+    "POP65PLUS": 219.0,
+    "PERC65PLUS": 13.082437275985663
+  },
+  {
+    "COMMUNE_NOM": "Goesdorf",
+    "YEAR": "2024",
+    "POP65PLUS": 238.0,
+    "PERC65PLUS": 14.277144571085785
+  },
+  {
+    "COMMUNE_NOM": "Goesdorf",
+    "YEAR": "2025",
+    "POP65PLUS": 238.0,
+    "PERC65PLUS": 14.192009540846753
+  },
+  {
+    "COMMUNE_NOM": "Grevenmacher",
+    "YEAR": "2020",
+    "POP65PLUS": 803.0,
+    "PERC65PLUS": 16.137459807073956
+  },
+  {
+    "COMMUNE_NOM": "Grevenmacher",
+    "YEAR": "2021",
+    "POP65PLUS": 821.0,
+    "PERC65PLUS": 16.21888581588305
+  },
+  {
+    "COMMUNE_NOM": "Grevenmacher",
+    "YEAR": "2022",
+    "POP65PLUS": 866.0,
+    "PERC65PLUS": 17.06067769897557
+  },
+  {
+    "COMMUNE_NOM": "Grevenmacher",
+    "YEAR": "2023",
+    "POP65PLUS": 902.0,
+    "PERC65PLUS": 17.48400852878465
+  },
+  {
+    "COMMUNE_NOM": "Grevenmacher",
+    "YEAR": "2024",
+    "POP65PLUS": 923.0,
+    "PERC65PLUS": 17.500948047023133
+  },
+  {
+    "COMMUNE_NOM": "Grevenmacher",
+    "YEAR": "2025",
+    "POP65PLUS": 940.0,
+    "PERC65PLUS": 17.81652767247915
+  },
+  {
+    "COMMUNE_NOM": "Groussbus-Wal",
+    "YEAR": "2020",
+    "POP65PLUS": 267.0,
+    "PERC65PLUS": 12.38575566271422
+  },
+  {
+    "COMMUNE_NOM": "Groussbus-Wal",
+    "YEAR": "2021",
+    "POP65PLUS": 282.0,
+    "PERC65PLUS": 12.944427491269114
+  },
+  {
+    "COMMUNE_NOM": "Groussbus-Wal",
+    "YEAR": "2022",
+    "POP65PLUS": 293.0,
+    "PERC65PLUS": 13.27507025502657
+  },
+  {
+    "COMMUNE_NOM": "Groussbus-Wal",
+    "YEAR": "2023",
+    "POP65PLUS": 309.0,
+    "PERC65PLUS": 13.546690048224464
+  },
+  {
+    "COMMUNE_NOM": "Groussbus-Wal",
+    "YEAR": "2024",
+    "POP65PLUS": 319.0,
+    "PERC65PLUS": 13.562925170068027
+  },
+  {
+    "COMMUNE_NOM": "Groussbus-Wal",
+    "YEAR": "2025",
+    "POP65PLUS": 322.0,
+    "PERC65PLUS": 13.427856547122602
+  },
+  {
+    "COMMUNE_NOM": "Habscht",
+    "YEAR": "2020",
+    "POP65PLUS": 701.0,
+    "PERC65PLUS": 14.696016771488472
+  },
+  {
+    "COMMUNE_NOM": "Habscht",
+    "YEAR": "2021",
+    "POP65PLUS": 722.0,
+    "PERC65PLUS": 14.737701571749335
+  },
+  {
+    "COMMUNE_NOM": "Habscht",
+    "YEAR": "2022",
+    "POP65PLUS": 721.0,
+    "PERC65PLUS": 14.55977382875606
+  },
+  {
+    "COMMUNE_NOM": "Habscht",
+    "YEAR": "2023",
+    "POP65PLUS": 748.0,
+    "PERC65PLUS": 14.672420557081209
+  },
+  {
+    "COMMUNE_NOM": "Habscht",
+    "YEAR": "2024",
+    "POP65PLUS": 778.0,
+    "PERC65PLUS": 14.790874524714829
+  },
+  {
+    "COMMUNE_NOM": "Habscht",
+    "YEAR": "2025",
+    "POP65PLUS": 822.0,
+    "PERC65PLUS": 15.44532130777903
+  },
+  {
+    "COMMUNE_NOM": "Heffingen",
+    "YEAR": "2020",
+    "POP65PLUS": 159.0,
+    "PERC65PLUS": 10.39895356442119
+  },
+  {
+    "COMMUNE_NOM": "Heffingen",
+    "YEAR": "2021",
+    "POP65PLUS": 161.0,
+    "PERC65PLUS": 10.606060606060606
+  },
+  {
+    "COMMUNE_NOM": "Heffingen",
+    "YEAR": "2022",
+    "POP65PLUS": 167.0,
+    "PERC65PLUS": 10.858257477243171
+  },
+  {
+    "COMMUNE_NOM": "Heffingen",
+    "YEAR": "2023",
+    "POP65PLUS": 171.0,
+    "PERC65PLUS": 10.982658959537572
+  },
+  {
+    "COMMUNE_NOM": "Heffingen",
+    "YEAR": "2024",
+    "POP65PLUS": 180.0,
+    "PERC65PLUS": 11.538461538461538
+  },
+  {
+    "COMMUNE_NOM": "Heffingen",
+    "YEAR": "2025",
+    "POP65PLUS": 187.0,
+    "PERC65PLUS": 11.813013265950726
+  },
+  {
+    "COMMUNE_NOM": "Helperknapp",
+    "YEAR": "2020",
+    "POP65PLUS": 580.0,
+    "PERC65PLUS": 12.960893854748605
+  },
+  {
+    "COMMUNE_NOM": "Helperknapp",
+    "YEAR": "2021",
+    "POP65PLUS": 595.0,
+    "PERC65PLUS": 12.80671545415411
+  },
+  {
+    "COMMUNE_NOM": "Helperknapp",
+    "YEAR": "2022",
+    "POP65PLUS": 642.0,
+    "PERC65PLUS": 12.980186008896077
+  },
+  {
+    "COMMUNE_NOM": "Helperknapp",
+    "YEAR": "2023",
+    "POP65PLUS": 654.0,
+    "PERC65PLUS": 13.046080191502094
+  },
+  {
+    "COMMUNE_NOM": "Helperknapp",
+    "YEAR": "2024",
+    "POP65PLUS": 712.0,
+    "PERC65PLUS": 13.461902060881073
+  },
+  {
+    "COMMUNE_NOM": "Helperknapp",
+    "YEAR": "2025",
+    "POP65PLUS": 726.0,
+    "PERC65PLUS": 13.674891693350911
+  },
+  {
+    "COMMUNE_NOM": "Hesperange",
+    "YEAR": "2020",
+    "POP65PLUS": 2495.0,
+    "PERC65PLUS": 15.90691743704176
+  },
+  {
+    "COMMUNE_NOM": "Hesperange",
+    "YEAR": "2021",
+    "POP65PLUS": 2550.0,
+    "PERC65PLUS": 16.152530563121555
+  },
+  {
+    "COMMUNE_NOM": "Hesperange",
+    "YEAR": "2022",
+    "POP65PLUS": 2592.0,
+    "PERC65PLUS": 15.869711626767891
+  },
+  {
+    "COMMUNE_NOM": "Hesperange",
+    "YEAR": "2023",
+    "POP65PLUS": 2641.0,
+    "PERC65PLUS": 15.749299302283976
+  },
+  {
+    "COMMUNE_NOM": "Hesperange",
+    "YEAR": "2024",
+    "POP65PLUS": 2717.0,
+    "PERC65PLUS": 15.846261518721567
+  },
+  {
+    "COMMUNE_NOM": "Hesperange",
+    "YEAR": "2025",
+    "POP65PLUS": 2746.0,
+    "PERC65PLUS": 15.947499854811545
+  },
+  {
+    "COMMUNE_NOM": "Junglinster",
+    "YEAR": "2020",
+    "POP65PLUS": 1270.0,
+    "PERC65PLUS": 15.47270955165692
+  },
+  {
+    "COMMUNE_NOM": "Junglinster",
+    "YEAR": "2021",
+    "POP65PLUS": 1310.0,
+    "PERC65PLUS": 15.584106590530574
+  },
+  {
+    "COMMUNE_NOM": "Junglinster",
+    "YEAR": "2022",
+    "POP65PLUS": 1369.0,
+    "PERC65PLUS": 15.978057889822594
+  },
+  {
+    "COMMUNE_NOM": "Junglinster",
+    "YEAR": "2023",
+    "POP65PLUS": 1387.0,
+    "PERC65PLUS": 15.85686521092946
+  },
+  {
+    "COMMUNE_NOM": "Junglinster",
+    "YEAR": "2024",
+    "POP65PLUS": 1471.0,
+    "PERC65PLUS": 16.288340161665374
+  },
+  {
+    "COMMUNE_NOM": "Junglinster",
+    "YEAR": "2025",
+    "POP65PLUS": 1513.0,
+    "PERC65PLUS": 16.553610503282275
+  },
+  {
+    "COMMUNE_NOM": "Kayl",
+    "YEAR": "2020",
+    "POP65PLUS": 1413.0,
+    "PERC65PLUS": 14.672897196261683
+  },
+  {
+    "COMMUNE_NOM": "Kayl",
+    "YEAR": "2021",
+    "POP65PLUS": 1439.0,
+    "PERC65PLUS": 14.824353559287111
+  },
+  {
+    "COMMUNE_NOM": "Kayl",
+    "YEAR": "2022",
+    "POP65PLUS": 1484.0,
+    "PERC65PLUS": 15.10125165360741
+  },
+  {
+    "COMMUNE_NOM": "Kayl",
+    "YEAR": "2023",
+    "POP65PLUS": 1553.0,
+    "PERC65PLUS": 15.75689935064935
+  },
+  {
+    "COMMUNE_NOM": "Kayl",
+    "YEAR": "2024",
+    "POP65PLUS": 1641.0,
+    "PERC65PLUS": 16.46102919049052
+  },
+  {
+    "COMMUNE_NOM": "Kayl",
+    "YEAR": "2025",
+    "POP65PLUS": 1644.0,
+    "PERC65PLUS": 16.46799559250726
+  },
+  {
+    "COMMUNE_NOM": "Kehlen",
+    "YEAR": "2020",
+    "POP65PLUS": 1154.0,
+    "PERC65PLUS": 18.535175072277543
+  },
+  {
+    "COMMUNE_NOM": "Kehlen",
+    "YEAR": "2021",
+    "POP65PLUS": 1189.0,
+    "PERC65PLUS": 19.251943005181342
+  },
+  {
+    "COMMUNE_NOM": "Kehlen",
+    "YEAR": "2022",
+    "POP65PLUS": 1244.0,
+    "PERC65PLUS": 19.68354430379747
+  },
+  {
+    "COMMUNE_NOM": "Kehlen",
+    "YEAR": "2023",
+    "POP65PLUS": 1283.0,
+    "PERC65PLUS": 19.18648123224166
+  },
+  {
+    "COMMUNE_NOM": "Kehlen",
+    "YEAR": "2024",
+    "POP65PLUS": 1353.0,
+    "PERC65PLUS": 18.92837157246782
+  },
+  {
+    "COMMUNE_NOM": "Kehlen",
+    "YEAR": "2025",
+    "POP65PLUS": 1390.0,
+    "PERC65PLUS": 18.908991973881104
+  },
+  {
+    "COMMUNE_NOM": "Kiischpelt",
+    "YEAR": "2020",
+    "POP65PLUS": 175.0,
+    "PERC65PLUS": 14.3090760425184
+  },
+  {
+    "COMMUNE_NOM": "Kiischpelt",
+    "YEAR": "2021",
+    "POP65PLUS": 182.0,
+    "PERC65PLUS": 14.760746147607462
+  },
+  {
+    "COMMUNE_NOM": "Kiischpelt",
+    "YEAR": "2022",
+    "POP65PLUS": 185.0,
+    "PERC65PLUS": 14.8
+  },
+  {
+    "COMMUNE_NOM": "Kiischpelt",
+    "YEAR": "2023",
+    "POP65PLUS": 185.0,
+    "PERC65PLUS": 14.77635782747604
+  },
+  {
+    "COMMUNE_NOM": "Kiischpelt",
+    "YEAR": "2024",
+    "POP65PLUS": 196.0,
+    "PERC65PLUS": 15.592680986475736
+  },
+  {
+    "COMMUNE_NOM": "Kiischpelt",
+    "YEAR": "2025",
+    "POP65PLUS": 203.0,
+    "PERC65PLUS": 15.675675675675675
+  },
+  {
+    "COMMUNE_NOM": "Koerich",
+    "YEAR": "2020",
+    "POP65PLUS": 358.0,
+    "PERC65PLUS": 13.612167300380229
+  },
+  {
+    "COMMUNE_NOM": "Koerich",
+    "YEAR": "2021",
+    "POP65PLUS": 377.0,
+    "PERC65PLUS": 14.269492808478429
+  },
+  {
+    "COMMUNE_NOM": "Koerich",
+    "YEAR": "2022",
+    "POP65PLUS": 391.0,
+    "PERC65PLUS": 14.562383612662943
+  },
+  {
+    "COMMUNE_NOM": "Koerich",
+    "YEAR": "2023",
+    "POP65PLUS": 395.0,
+    "PERC65PLUS": 14.400291651476484
+  },
+  {
+    "COMMUNE_NOM": "Koerich",
+    "YEAR": "2024",
+    "POP65PLUS": 427.0,
+    "PERC65PLUS": 15.343154868846568
+  },
+  {
+    "COMMUNE_NOM": "Koerich",
+    "YEAR": "2025",
+    "POP65PLUS": 441.0,
+    "PERC65PLUS": 15.677212939921793
+  },
+  {
+    "COMMUNE_NOM": "Kopstal",
+    "YEAR": "2020",
+    "POP65PLUS": 668.0,
+    "PERC65PLUS": 16.510133465150766
+  },
+  {
+    "COMMUNE_NOM": "Kopstal",
+    "YEAR": "2021",
+    "POP65PLUS": 671.0,
+    "PERC65PLUS": 16.337959581202824
+  },
+  {
+    "COMMUNE_NOM": "Kopstal",
+    "YEAR": "2022",
+    "POP65PLUS": 677.0,
+    "PERC65PLUS": 15.918175405596047
+  },
+  {
+    "COMMUNE_NOM": "Kopstal",
+    "YEAR": "2023",
+    "POP65PLUS": 686.0,
+    "PERC65PLUS": 15.38116591928251
+  },
+  {
+    "COMMUNE_NOM": "Kopstal",
+    "YEAR": "2024",
+    "POP65PLUS": 687.0,
+    "PERC65PLUS": 14.850843060959791
+  },
+  {
+    "COMMUNE_NOM": "Kopstal",
+    "YEAR": "2025",
+    "POP65PLUS": 704.0,
+    "PERC65PLUS": 14.780600461893764
+  },
+  {
+    "COMMUNE_NOM": "Käerjeng",
+    "YEAR": "2020",
+    "POP65PLUS": 1850.0,
+    "PERC65PLUS": 17.53056003032313
+  },
+  {
+    "COMMUNE_NOM": "Käerjeng",
+    "YEAR": "2021",
+    "POP65PLUS": 1885.0,
+    "PERC65PLUS": 17.587236424706102
+  },
+  {
+    "COMMUNE_NOM": "Käerjeng",
+    "YEAR": "2022",
+    "POP65PLUS": 1941.0,
+    "PERC65PLUS": 17.672767003550945
+  },
+  {
+    "COMMUNE_NOM": "Käerjeng",
+    "YEAR": "2023",
+    "POP65PLUS": 1981.0,
+    "PERC65PLUS": 17.816350391222233
+  },
+  {
+    "COMMUNE_NOM": "Käerjeng",
+    "YEAR": "2024",
+    "POP65PLUS": 2087.0,
+    "PERC65PLUS": 18.51983317064513
+  },
+  {
+    "COMMUNE_NOM": "Käerjeng",
+    "YEAR": "2025",
+    "POP65PLUS": 2157.0,
+    "PERC65PLUS": 18.98600475310272
+  },
+  {
+    "COMMUNE_NOM": "Lac de la Haute-Sûre",
+    "YEAR": "2020",
+    "POP65PLUS": 303.0,
+    "PERC65PLUS": 14.595375722543352
+  },
+  {
+    "COMMUNE_NOM": "Lac de la Haute-Sûre",
+    "YEAR": "2021",
+    "POP65PLUS": 322.0,
+    "PERC65PLUS": 14.921223354958292
+  },
+  {
+    "COMMUNE_NOM": "Lac de la Haute-Sûre",
+    "YEAR": "2022",
+    "POP65PLUS": 349.0,
+    "PERC65PLUS": 15.580357142857142
+  },
+  {
+    "COMMUNE_NOM": "Lac de la Haute-Sûre",
+    "YEAR": "2023",
+    "POP65PLUS": 357.0,
+    "PERC65PLUS": 15.726872246696036
+  },
+  {
+    "COMMUNE_NOM": "Lac de la Haute-Sûre",
+    "YEAR": "2024",
+    "POP65PLUS": 385.0,
+    "PERC65PLUS": 16.559139784946236
+  },
+  {
+    "COMMUNE_NOM": "Lac de la Haute-Sûre",
+    "YEAR": "2025",
+    "POP65PLUS": 395.0,
+    "PERC65PLUS": 16.909246575342465
+  },
+  {
+    "COMMUNE_NOM": "Larochette",
+    "YEAR": "2020",
+    "POP65PLUS": 269.0,
+    "PERC65PLUS": 12.155445097153189
+  },
+  {
+    "COMMUNE_NOM": "Larochette",
+    "YEAR": "2021",
+    "POP65PLUS": 295.0,
+    "PERC65PLUS": 13.33634719710669
+  },
+  {
+    "COMMUNE_NOM": "Larochette",
+    "YEAR": "2022",
+    "POP65PLUS": 295.0,
+    "PERC65PLUS": 13.360507246376812
+  },
+  {
+    "COMMUNE_NOM": "Larochette",
+    "YEAR": "2023",
+    "POP65PLUS": 304.0,
+    "PERC65PLUS": 13.662921348314608
+  },
+  {
+    "COMMUNE_NOM": "Larochette",
+    "YEAR": "2024",
+    "POP65PLUS": 314.0,
+    "PERC65PLUS": 14.087034544638852
+  },
+  {
+    "COMMUNE_NOM": "Larochette",
+    "YEAR": "2025",
+    "POP65PLUS": 321.0,
+    "PERC65PLUS": 14.330357142857142
+  },
+  {
+    "COMMUNE_NOM": "Lenningen",
+    "YEAR": "2020",
+    "POP65PLUS": 243.0,
+    "PERC65PLUS": 11.73913043478261
+  },
+  {
+    "COMMUNE_NOM": "Lenningen",
+    "YEAR": "2021",
+    "POP65PLUS": 248.0,
+    "PERC65PLUS": 12.079883097905505
+  },
+  {
+    "COMMUNE_NOM": "Lenningen",
+    "YEAR": "2022",
+    "POP65PLUS": 259.0,
+    "PERC65PLUS": 12.634146341463415
+  },
+  {
+    "COMMUNE_NOM": "Lenningen",
+    "YEAR": "2023",
+    "POP65PLUS": 331.0,
+    "PERC65PLUS": 15.489003275620028
+  },
+  {
+    "COMMUNE_NOM": "Lenningen",
+    "YEAR": "2024",
+    "POP65PLUS": 380.0,
+    "PERC65PLUS": 17.715617715617714
+  },
+  {
+    "COMMUNE_NOM": "Lenningen",
+    "YEAR": "2025",
+    "POP65PLUS": 385.0,
+    "PERC65PLUS": 18.12617702448211
+  },
+  {
+    "COMMUNE_NOM": "Leudelange",
+    "YEAR": "2020",
+    "POP65PLUS": 396.0,
+    "PERC65PLUS": 14.585635359116022
+  },
+  {
+    "COMMUNE_NOM": "Leudelange",
+    "YEAR": "2021",
+    "POP65PLUS": 417.0,
+    "PERC65PLUS": 15.50185873605948
+  },
+  {
+    "COMMUNE_NOM": "Leudelange",
+    "YEAR": "2022",
+    "POP65PLUS": 426.0,
+    "PERC65PLUS": 15.323741007194243
+  },
+  {
+    "COMMUNE_NOM": "Leudelange",
+    "YEAR": "2023",
+    "POP65PLUS": 440.0,
+    "PERC65PLUS": 15.913200723327304
+  },
+  {
+    "COMMUNE_NOM": "Leudelange",
+    "YEAR": "2024",
+    "POP65PLUS": 474.0,
+    "PERC65PLUS": 16.995338831122268
+  },
+  {
+    "COMMUNE_NOM": "Leudelange",
+    "YEAR": "2025",
+    "POP65PLUS": 487.0,
+    "PERC65PLUS": 17.51798561151079
+  },
+  {
+    "COMMUNE_NOM": "Lintgen",
+    "YEAR": "2020",
+    "POP65PLUS": 403.0,
+    "PERC65PLUS": 12.62926982137261
+  },
+  {
+    "COMMUNE_NOM": "Lintgen",
+    "YEAR": "2021",
+    "POP65PLUS": 436.0,
+    "PERC65PLUS": 12.865151962230748
+  },
+  {
+    "COMMUNE_NOM": "Lintgen",
+    "YEAR": "2022",
+    "POP65PLUS": 448.0,
+    "PERC65PLUS": 13.027042744984008
+  },
+  {
+    "COMMUNE_NOM": "Lintgen",
+    "YEAR": "2023",
+    "POP65PLUS": 467.0,
+    "PERC65PLUS": 13.48541726826451
+  },
+  {
+    "COMMUNE_NOM": "Lintgen",
+    "YEAR": "2024",
+    "POP65PLUS": 494.0,
+    "PERC65PLUS": 14.1831754234855
+  },
+  {
+    "COMMUNE_NOM": "Lintgen",
+    "YEAR": "2025",
+    "POP65PLUS": 509.0,
+    "PERC65PLUS": 14.647482014388489
+  },
+  {
+    "COMMUNE_NOM": "Lorentzweiler",
+    "YEAR": "2020",
+    "POP65PLUS": 819.0,
+    "PERC65PLUS": 19.153414405986904
+  },
+  {
+    "COMMUNE_NOM": "Lorentzweiler",
+    "YEAR": "2021",
+    "POP65PLUS": 838.0,
+    "PERC65PLUS": 19.02383654937571
+  },
+  {
+    "COMMUNE_NOM": "Lorentzweiler",
+    "YEAR": "2022",
+    "POP65PLUS": 850.0,
+    "PERC65PLUS": 19.011406844106464
+  },
+  {
+    "COMMUNE_NOM": "Lorentzweiler",
+    "YEAR": "2023",
+    "POP65PLUS": 897.0,
+    "PERC65PLUS": 19.483058210251954
+  },
+  {
+    "COMMUNE_NOM": "Lorentzweiler",
+    "YEAR": "2024",
+    "POP65PLUS": 922.0,
+    "PERC65PLUS": 19.65465785546792
+  },
+  {
+    "COMMUNE_NOM": "Lorentzweiler",
+    "YEAR": "2025",
+    "POP65PLUS": 930.0,
+    "PERC65PLUS": 19.64512040557668
+  },
+  {
+    "COMMUNE_NOM": "Luxembourg",
+    "YEAR": "2020",
+    "POP65PLUS": 15032.0,
+    "PERC65PLUS": 12.11818291748962
+  },
+  {
+    "COMMUNE_NOM": "Luxembourg",
+    "YEAR": "2021",
+    "POP65PLUS": 15274.0,
+    "PERC65PLUS": 11.972377466157692
+  },
+  {
+    "COMMUNE_NOM": "Luxembourg",
+    "YEAR": "2022",
+    "POP65PLUS": 15699.0,
+    "PERC65PLUS": 11.901296338412552
+  },
+  {
+    "COMMUNE_NOM": "Luxembourg",
+    "YEAR": "2023",
+    "POP65PLUS": 16043.0,
+    "PERC65PLUS": 11.94244282991901
+  },
+  {
+    "COMMUNE_NOM": "Luxembourg",
+    "YEAR": "2024",
+    "POP65PLUS": 16273.0,
+    "PERC65PLUS": 11.947169035592625
+  },
+  {
+    "COMMUNE_NOM": "Luxembourg",
+    "YEAR": "2025",
+    "POP65PLUS": 16546.0,
+    "PERC65PLUS": 12.074640044953332
+  },
+  {
+    "COMMUNE_NOM": "Mamer",
+    "YEAR": "2020",
+    "POP65PLUS": 1625.0,
+    "PERC65PLUS": 16.00354540082726
+  },
+  {
+    "COMMUNE_NOM": "Mamer",
+    "YEAR": "2021",
+    "POP65PLUS": 1675.0,
+    "PERC65PLUS": 16.077942023421002
+  },
+  {
+    "COMMUNE_NOM": "Mamer",
+    "YEAR": "2022",
+    "POP65PLUS": 1705.0,
+    "PERC65PLUS": 16.04101985135008
+  },
+  {
+    "COMMUNE_NOM": "Mamer",
+    "YEAR": "2023",
+    "POP65PLUS": 1750.0,
+    "PERC65PLUS": 15.970067530571272
+  },
+  {
+    "COMMUNE_NOM": "Mamer",
+    "YEAR": "2024",
+    "POP65PLUS": 1784.0,
+    "PERC65PLUS": 15.69317382125264
+  },
+  {
+    "COMMUNE_NOM": "Mamer",
+    "YEAR": "2025",
+    "POP65PLUS": 1813.0,
+    "PERC65PLUS": 15.72419774501301
+  },
+  {
+    "COMMUNE_NOM": "Manternach",
+    "YEAR": "2020",
+    "POP65PLUS": 344.0,
+    "PERC65PLUS": 15.377738042020564
+  },
+  {
+    "COMMUNE_NOM": "Manternach",
+    "YEAR": "2021",
+    "POP65PLUS": 365.0,
+    "PERC65PLUS": 16.294642857142858
+  },
+  {
+    "COMMUNE_NOM": "Manternach",
+    "YEAR": "2022",
+    "POP65PLUS": 378.0,
+    "PERC65PLUS": 16.52097902097902
+  },
+  {
+    "COMMUNE_NOM": "Manternach",
+    "YEAR": "2023",
+    "POP65PLUS": 388.0,
+    "PERC65PLUS": 16.898954703832754
+  },
+  {
+    "COMMUNE_NOM": "Manternach",
+    "YEAR": "2024",
+    "POP65PLUS": 402.0,
+    "PERC65PLUS": 17.23103300471496
+  },
+  {
+    "COMMUNE_NOM": "Manternach",
+    "YEAR": "2025",
+    "POP65PLUS": 412.0,
+    "PERC65PLUS": 17.54684838160136
+  },
+  {
+    "COMMUNE_NOM": "Mersch",
+    "YEAR": "2020",
+    "POP65PLUS": 1556.0,
+    "PERC65PLUS": 15.701311806256308
+  },
+  {
+    "COMMUNE_NOM": "Mersch",
+    "YEAR": "2021",
+    "POP65PLUS": 1611.0,
+    "PERC65PLUS": 16.033041401273884
+  },
+  {
+    "COMMUNE_NOM": "Mersch",
+    "YEAR": "2022",
+    "POP65PLUS": 1647.0,
+    "PERC65PLUS": 15.90228830742493
+  },
+  {
+    "COMMUNE_NOM": "Mersch",
+    "YEAR": "2023",
+    "POP65PLUS": 1676.0,
+    "PERC65PLUS": 15.927017010358265
+  },
+  {
+    "COMMUNE_NOM": "Mersch",
+    "YEAR": "2024",
+    "POP65PLUS": 1759.0,
+    "PERC65PLUS": 16.51023089919279
+  },
+  {
+    "COMMUNE_NOM": "Mersch",
+    "YEAR": "2025",
+    "POP65PLUS": 1782.0,
+    "PERC65PLUS": 16.45277444372634
+  },
+  {
+    "COMMUNE_NOM": "Mertert",
+    "YEAR": "2020",
+    "POP65PLUS": 818.0,
+    "PERC65PLUS": 17.482368027356273
+  },
+  {
+    "COMMUNE_NOM": "Mertert",
+    "YEAR": "2021",
+    "POP65PLUS": 813.0,
+    "PERC65PLUS": 17.019049612727656
+  },
+  {
+    "COMMUNE_NOM": "Mertert",
+    "YEAR": "2022",
+    "POP65PLUS": 840.0,
+    "PERC65PLUS": 16.726403823178014
+  },
+  {
+    "COMMUNE_NOM": "Mertert",
+    "YEAR": "2023",
+    "POP65PLUS": 867.0,
+    "PERC65PLUS": 16.321536144578314
+  },
+  {
+    "COMMUNE_NOM": "Mertert",
+    "YEAR": "2024",
+    "POP65PLUS": 907.0,
+    "PERC65PLUS": 16.321756343350728
+  },
+  {
+    "COMMUNE_NOM": "Mertert",
+    "YEAR": "2025",
+    "POP65PLUS": 914.0,
+    "PERC65PLUS": 16.251778093883356
+  },
+  {
+    "COMMUNE_NOM": "Mertzig",
+    "YEAR": "2020",
+    "POP65PLUS": 268.0,
+    "PERC65PLUS": 11.769872639437857
+  },
+  {
+    "COMMUNE_NOM": "Mertzig",
+    "YEAR": "2021",
+    "POP65PLUS": 279.0,
+    "PERC65PLUS": 12.210065645514224
+  },
+  {
+    "COMMUNE_NOM": "Mertzig",
+    "YEAR": "2022",
+    "POP65PLUS": 297.0,
+    "PERC65PLUS": 12.632922160782645
+  },
+  {
+    "COMMUNE_NOM": "Mertzig",
+    "YEAR": "2023",
+    "POP65PLUS": 302.0,
+    "PERC65PLUS": 12.583333333333332
+  },
+  {
+    "COMMUNE_NOM": "Mertzig",
+    "YEAR": "2024",
+    "POP65PLUS": 341.0,
+    "PERC65PLUS": 14.120082815734987
+  },
+  {
+    "COMMUNE_NOM": "Mertzig",
+    "YEAR": "2025",
+    "POP65PLUS": 354.0,
+    "PERC65PLUS": 14.616019818331957
+  },
+  {
+    "COMMUNE_NOM": "Mondercange",
+    "YEAR": "2020",
+    "POP65PLUS": 1311.0,
+    "PERC65PLUS": 18.75536480686696
+  },
+  {
+    "COMMUNE_NOM": "Mondercange",
+    "YEAR": "2021",
+    "POP65PLUS": 1328.0,
+    "PERC65PLUS": 19.033968754479
+  },
+  {
+    "COMMUNE_NOM": "Mondercange",
+    "YEAR": "2022",
+    "POP65PLUS": 1356.0,
+    "PERC65PLUS": 19.05029502669289
+  },
+  {
+    "COMMUNE_NOM": "Mondercange",
+    "YEAR": "2023",
+    "POP65PLUS": 1406.0,
+    "PERC65PLUS": 19.36905909904946
+  },
+  {
+    "COMMUNE_NOM": "Mondercange",
+    "YEAR": "2024",
+    "POP65PLUS": 1483.0,
+    "PERC65PLUS": 20.33735600658256
+  },
+  {
+    "COMMUNE_NOM": "Mondercange",
+    "YEAR": "2025",
+    "POP65PLUS": 1506.0,
+    "PERC65PLUS": 20.675453047775942
+  },
+  {
+    "COMMUNE_NOM": "Mondorf-les-Bains",
+    "YEAR": "2020",
+    "POP65PLUS": 1297.0,
+    "PERC65PLUS": 24.01851851851852
+  },
+  {
+    "COMMUNE_NOM": "Mondorf-les-Bains",
+    "YEAR": "2021",
+    "POP65PLUS": 1310.0,
+    "PERC65PLUS": 24.326833797585888
+  },
+  {
+    "COMMUNE_NOM": "Mondorf-les-Bains",
+    "YEAR": "2022",
+    "POP65PLUS": 1359.0,
+    "PERC65PLUS": 24.903793293018143
+  },
+  {
+    "COMMUNE_NOM": "Mondorf-les-Bains",
+    "YEAR": "2023",
+    "POP65PLUS": 1355.0,
+    "PERC65PLUS": 25.018463810930573
+  },
+  {
+    "COMMUNE_NOM": "Mondorf-les-Bains",
+    "YEAR": "2024",
+    "POP65PLUS": 1359.0,
+    "PERC65PLUS": 25.01840942562592
+  },
+  {
+    "COMMUNE_NOM": "Mondorf-les-Bains",
+    "YEAR": "2025",
+    "POP65PLUS": 1409.0,
+    "PERC65PLUS": 25.58561830397676
+  },
+  {
+    "COMMUNE_NOM": "Niederanven",
+    "YEAR": "2020",
+    "POP65PLUS": 1419.0,
+    "PERC65PLUS": 22.448979591836736
+  },
+  {
+    "COMMUNE_NOM": "Niederanven",
+    "YEAR": "2021",
+    "POP65PLUS": 1442.0,
+    "PERC65PLUS": 22.517176764522173
+  },
+  {
+    "COMMUNE_NOM": "Niederanven",
+    "YEAR": "2022",
+    "POP65PLUS": 1487.0,
+    "PERC65PLUS": 22.320624437105973
+  },
+  {
+    "COMMUNE_NOM": "Niederanven",
+    "YEAR": "2023",
+    "POP65PLUS": 1509.0,
+    "PERC65PLUS": 22.29609929078014
+  },
+  {
+    "COMMUNE_NOM": "Niederanven",
+    "YEAR": "2024",
+    "POP65PLUS": 1600.0,
+    "PERC65PLUS": 22.889842632331906
+  },
+  {
+    "COMMUNE_NOM": "Niederanven",
+    "YEAR": "2025",
+    "POP65PLUS": 1633.0,
+    "PERC65PLUS": 23.01296505073281
+  },
+  {
+    "COMMUNE_NOM": "Nommern",
+    "YEAR": "2020",
+    "POP65PLUS": 160.0,
+    "PERC65PLUS": 11.118832522585128
+  },
+  {
+    "COMMUNE_NOM": "Nommern",
+    "YEAR": "2021",
+    "POP65PLUS": 172.0,
+    "PERC65PLUS": 11.977715877437326
+  },
+  {
+    "COMMUNE_NOM": "Nommern",
+    "YEAR": "2022",
+    "POP65PLUS": 176.0,
+    "PERC65PLUS": 12.16309606081548
+  },
+  {
+    "COMMUNE_NOM": "Nommern",
+    "YEAR": "2023",
+    "POP65PLUS": 191.0,
+    "PERC65PLUS": 12.949152542372882
+  },
+  {
+    "COMMUNE_NOM": "Nommern",
+    "YEAR": "2024",
+    "POP65PLUS": 208.0,
+    "PERC65PLUS": 13.783962889330684
+  },
+  {
+    "COMMUNE_NOM": "Nommern",
+    "YEAR": "2025",
+    "POP65PLUS": 216.0,
+    "PERC65PLUS": 14.257425742574256
+  },
+  {
+    "COMMUNE_NOM": "Parc Hosingen",
+    "YEAR": "2020",
+    "POP65PLUS": 476.0,
+    "PERC65PLUS": 12.8060263653484
+  },
+  {
+    "COMMUNE_NOM": "Parc Hosingen",
+    "YEAR": "2021",
+    "POP65PLUS": 491.0,
+    "PERC65PLUS": 12.813152400835074
+  },
+  {
+    "COMMUNE_NOM": "Parc Hosingen",
+    "YEAR": "2022",
+    "POP65PLUS": 499.0,
+    "PERC65PLUS": 12.540839406886152
+  },
+  {
+    "COMMUNE_NOM": "Parc Hosingen",
+    "YEAR": "2023",
+    "POP65PLUS": 526.0,
+    "PERC65PLUS": 12.83239814588924
+  },
+  {
+    "COMMUNE_NOM": "Parc Hosingen",
+    "YEAR": "2024",
+    "POP65PLUS": 544.0,
+    "PERC65PLUS": 12.636469221835076
+  },
+  {
+    "COMMUNE_NOM": "Parc Hosingen",
+    "YEAR": "2025",
+    "POP65PLUS": 562.0,
+    "PERC65PLUS": 12.819343065693433
+  },
+  {
+    "COMMUNE_NOM": "Préizerdaul",
+    "YEAR": "2020",
+    "POP65PLUS": 229.0,
+    "PERC65PLUS": 13.399648917495613
+  },
+  {
+    "COMMUNE_NOM": "Préizerdaul",
+    "YEAR": "2021",
+    "POP65PLUS": 246.0,
+    "PERC65PLUS": 13.85135135135135
+  },
+  {
+    "COMMUNE_NOM": "Préizerdaul",
+    "YEAR": "2022",
+    "POP65PLUS": 250.0,
+    "PERC65PLUS": 13.881177123820098
+  },
+  {
+    "COMMUNE_NOM": "Préizerdaul",
+    "YEAR": "2023",
+    "POP65PLUS": 274.0,
+    "PERC65PLUS": 14.915623298856833
+  },
+  {
+    "COMMUNE_NOM": "Préizerdaul",
+    "YEAR": "2024",
+    "POP65PLUS": 281.0,
+    "PERC65PLUS": 15.321701199563794
+  },
+  {
+    "COMMUNE_NOM": "Préizerdaul",
+    "YEAR": "2025",
+    "POP65PLUS": 294.0,
+    "PERC65PLUS": 16.180517336268572
+  },
+  {
+    "COMMUNE_NOM": "Putscheid",
+    "YEAR": "2020",
+    "POP65PLUS": 133.0,
+    "PERC65PLUS": 11.864406779661016
+  },
+  {
+    "COMMUNE_NOM": "Putscheid",
+    "YEAR": "2021",
+    "POP65PLUS": 139.0,
+    "PERC65PLUS": 12.355555555555556
+  },
+  {
+    "COMMUNE_NOM": "Putscheid",
+    "YEAR": "2022",
+    "POP65PLUS": 151.0,
+    "PERC65PLUS": 13.24561403508772
+  },
+  {
+    "COMMUNE_NOM": "Putscheid",
+    "YEAR": "2023",
+    "POP65PLUS": 166.0,
+    "PERC65PLUS": 14.04399323181049
+  },
+  {
+    "COMMUNE_NOM": "Putscheid",
+    "YEAR": "2024",
+    "POP65PLUS": 165.0,
+    "PERC65PLUS": 14.018691588785046
+  },
+  {
+    "COMMUNE_NOM": "Putscheid",
+    "YEAR": "2025",
+    "POP65PLUS": 171.0,
+    "PERC65PLUS": 14.321608040201006
+  },
+  {
+    "COMMUNE_NOM": "Pétange",
+    "YEAR": "2020",
+    "POP65PLUS": 2744.0,
+    "PERC65PLUS": 13.751628746116069
+  },
+  {
+    "COMMUNE_NOM": "Pétange",
+    "YEAR": "2021",
+    "POP65PLUS": 2796.0,
+    "PERC65PLUS": 13.76051971061568
+  },
+  {
+    "COMMUNE_NOM": "Pétange",
+    "YEAR": "2022",
+    "POP65PLUS": 2887.0,
+    "PERC65PLUS": 14.13602311119816
+  },
+  {
+    "COMMUNE_NOM": "Pétange",
+    "YEAR": "2023",
+    "POP65PLUS": 2975.0,
+    "PERC65PLUS": 14.256960751425696
+  },
+  {
+    "COMMUNE_NOM": "Pétange",
+    "YEAR": "2024",
+    "POP65PLUS": 3076.0,
+    "PERC65PLUS": 14.587878213032344
+  },
+  {
+    "COMMUNE_NOM": "Pétange",
+    "YEAR": "2025",
+    "POP65PLUS": 3150.0,
+    "PERC65PLUS": 14.871116986120292
+  },
+  {
+    "COMMUNE_NOM": "Rambrouch",
+    "YEAR": "2020",
+    "POP65PLUS": 685.0,
+    "PERC65PLUS": 15.11140525038606
+  },
+  {
+    "COMMUNE_NOM": "Rambrouch",
+    "YEAR": "2021",
+    "POP65PLUS": 707.0,
+    "PERC65PLUS": 15.036154827732878
+  },
+  {
+    "COMMUNE_NOM": "Rambrouch",
+    "YEAR": "2022",
+    "POP65PLUS": 730.0,
+    "PERC65PLUS": 15.160955347871235
+  },
+  {
+    "COMMUNE_NOM": "Rambrouch",
+    "YEAR": "2023",
+    "POP65PLUS": 743.0,
+    "PERC65PLUS": 15.166360481730964
+  },
+  {
+    "COMMUNE_NOM": "Rambrouch",
+    "YEAR": "2024",
+    "POP65PLUS": 770.0,
+    "PERC65PLUS": 15.384615384615383
+  },
+  {
+    "COMMUNE_NOM": "Rambrouch",
+    "YEAR": "2025",
+    "POP65PLUS": 785.0,
+    "PERC65PLUS": 15.51383399209486
+  },
+  {
+    "COMMUNE_NOM": "Reckange-sur-Mess",
+    "YEAR": "2020",
+    "POP65PLUS": 419.0,
+    "PERC65PLUS": 15.919452887537991
+  },
+  {
+    "COMMUNE_NOM": "Reckange-sur-Mess",
+    "YEAR": "2021",
+    "POP65PLUS": 437.0,
+    "PERC65PLUS": 16.269545793000745
+  },
+  {
+    "COMMUNE_NOM": "Reckange-sur-Mess",
+    "YEAR": "2022",
+    "POP65PLUS": 453.0,
+    "PERC65PLUS": 16.666666666666664
+  },
+  {
+    "COMMUNE_NOM": "Reckange-sur-Mess",
+    "YEAR": "2023",
+    "POP65PLUS": 456.0,
+    "PERC65PLUS": 16.509775524981897
+  },
+  {
+    "COMMUNE_NOM": "Reckange-sur-Mess",
+    "YEAR": "2024",
+    "POP65PLUS": 474.0,
+    "PERC65PLUS": 16.60245183887916
+  },
+  {
+    "COMMUNE_NOM": "Reckange-sur-Mess",
+    "YEAR": "2025",
+    "POP65PLUS": 491.0,
+    "PERC65PLUS": 16.60466689212039
+  },
+  {
+    "COMMUNE_NOM": "Redange/Attert",
+    "YEAR": "2020",
+    "POP65PLUS": 492.0,
+    "PERC65PLUS": 16.780354706684857
+  },
+  {
+    "COMMUNE_NOM": "Redange/Attert",
+    "YEAR": "2021",
+    "POP65PLUS": 504.0,
+    "PERC65PLUS": 16.992582602832094
+  },
+  {
+    "COMMUNE_NOM": "Redange/Attert",
+    "YEAR": "2022",
+    "POP65PLUS": 521.0,
+    "PERC65PLUS": 17.081967213114755
+  },
+  {
+    "COMMUNE_NOM": "Redange/Attert",
+    "YEAR": "2023",
+    "POP65PLUS": 551.0,
+    "PERC65PLUS": 17.866407263294423
+  },
+  {
+    "COMMUNE_NOM": "Redange/Attert",
+    "YEAR": "2024",
+    "POP65PLUS": 572.0,
+    "PERC65PLUS": 18.304
+  },
+  {
+    "COMMUNE_NOM": "Redange/Attert",
+    "YEAR": "2025",
+    "POP65PLUS": 608.0,
+    "PERC65PLUS": 19.338422391857502
+  },
+  {
+    "COMMUNE_NOM": "Reisdorf",
+    "YEAR": "2020",
+    "POP65PLUS": 158.0,
+    "PERC65PLUS": 12.248062015503876
+  },
+  {
+    "COMMUNE_NOM": "Reisdorf",
+    "YEAR": "2021",
+    "POP65PLUS": 159.0,
+    "PERC65PLUS": 11.96388261851016
+  },
+  {
+    "COMMUNE_NOM": "Reisdorf",
+    "YEAR": "2022",
+    "POP65PLUS": 166.0,
+    "PERC65PLUS": 12.415856394913986
+  },
+  {
+    "COMMUNE_NOM": "Reisdorf",
+    "YEAR": "2023",
+    "POP65PLUS": 171.0,
+    "PERC65PLUS": 12.0
+  },
+  {
+    "COMMUNE_NOM": "Reisdorf",
+    "YEAR": "2024",
+    "POP65PLUS": 167.0,
+    "PERC65PLUS": 11.549100968188103
+  },
+  {
+    "COMMUNE_NOM": "Reisdorf",
+    "YEAR": "2025",
+    "POP65PLUS": 168.0,
+    "PERC65PLUS": 11.847672778561352
+  },
+  {
+    "COMMUNE_NOM": "Remich",
+    "YEAR": "2020",
+    "POP65PLUS": 847.0,
+    "PERC65PLUS": 22.52659574468085
+  },
+  {
+    "COMMUNE_NOM": "Remich",
+    "YEAR": "2021",
+    "POP65PLUS": 863.0,
+    "PERC65PLUS": 22.73445732349841
+  },
+  {
+    "COMMUNE_NOM": "Remich",
+    "YEAR": "2022",
+    "POP65PLUS": 900.0,
+    "PERC65PLUS": 22.54509018036072
+  },
+  {
+    "COMMUNE_NOM": "Remich",
+    "YEAR": "2023",
+    "POP65PLUS": 926.0,
+    "PERC65PLUS": 22.62952101661779
+  },
+  {
+    "COMMUNE_NOM": "Remich",
+    "YEAR": "2024",
+    "POP65PLUS": 931.0,
+    "PERC65PLUS": 22.439141961918533
+  },
+  {
+    "COMMUNE_NOM": "Remich",
+    "YEAR": "2025",
+    "POP65PLUS": 959.0,
+    "PERC65PLUS": 22.98657718120805
+  },
+  {
+    "COMMUNE_NOM": "Roeser",
+    "YEAR": "2020",
+    "POP65PLUS": 1075.0,
+    "PERC65PLUS": 16.394692694829953
+  },
+  {
+    "COMMUNE_NOM": "Roeser",
+    "YEAR": "2021",
+    "POP65PLUS": 1094.0,
+    "PERC65PLUS": 16.66920615572147
+  },
+  {
+    "COMMUNE_NOM": "Roeser",
+    "YEAR": "2022",
+    "POP65PLUS": 1136.0,
+    "PERC65PLUS": 17.173091458805743
+  },
+  {
+    "COMMUNE_NOM": "Roeser",
+    "YEAR": "2023",
+    "POP65PLUS": 1181.0,
+    "PERC65PLUS": 17.210725735937043
+  },
+  {
+    "COMMUNE_NOM": "Roeser",
+    "YEAR": "2024",
+    "POP65PLUS": 1217.0,
+    "PERC65PLUS": 17.25262262546073
+  },
+  {
+    "COMMUNE_NOM": "Roeser",
+    "YEAR": "2025",
+    "POP65PLUS": 1239.0,
+    "PERC65PLUS": 17.28274515274097
+  },
+  {
+    "COMMUNE_NOM": "Rosport-Mompach",
+    "YEAR": "2020",
+    "POP65PLUS": 526.0,
+    "PERC65PLUS": 14.442613948380012
+  },
+  {
+    "COMMUNE_NOM": "Rosport-Mompach",
+    "YEAR": "2021",
+    "POP65PLUS": 535.0,
+    "PERC65PLUS": 14.6978021978022
+  },
+  {
+    "COMMUNE_NOM": "Rosport-Mompach",
+    "YEAR": "2022",
+    "POP65PLUS": 551.0,
+    "PERC65PLUS": 14.90397619691642
+  },
+  {
+    "COMMUNE_NOM": "Rosport-Mompach",
+    "YEAR": "2023",
+    "POP65PLUS": 575.0,
+    "PERC65PLUS": 15.507011866235167
+  },
+  {
+    "COMMUNE_NOM": "Rosport-Mompach",
+    "YEAR": "2024",
+    "POP65PLUS": 601.0,
+    "PERC65PLUS": 16.00532623169108
+  },
+  {
+    "COMMUNE_NOM": "Rosport-Mompach",
+    "YEAR": "2025",
+    "POP65PLUS": 619.0,
+    "PERC65PLUS": 16.345392130974385
+  },
+  {
+    "COMMUNE_NOM": "Rumelange",
+    "YEAR": "2020",
+    "POP65PLUS": 795.0,
+    "PERC65PLUS": 14.193893947509372
+  },
+  {
+    "COMMUNE_NOM": "Rumelange",
+    "YEAR": "2021",
+    "POP65PLUS": 806.0,
+    "PERC65PLUS": 14.21266090636572
+  },
+  {
+    "COMMUNE_NOM": "Rumelange",
+    "YEAR": "2022",
+    "POP65PLUS": 818.0,
+    "PERC65PLUS": 14.142461964038729
+  },
+  {
+    "COMMUNE_NOM": "Rumelange",
+    "YEAR": "2023",
+    "POP65PLUS": 784.0,
+    "PERC65PLUS": 13.61111111111111
+  },
+  {
+    "COMMUNE_NOM": "Rumelange",
+    "YEAR": "2024",
+    "POP65PLUS": 794.0,
+    "PERC65PLUS": 13.80149487224057
+  },
+  {
+    "COMMUNE_NOM": "Rumelange",
+    "YEAR": "2025",
+    "POP65PLUS": 805.0,
+    "PERC65PLUS": 13.94422310756972
+  },
+  {
+    "COMMUNE_NOM": "Saeul",
+    "YEAR": "2020",
+    "POP65PLUS": 92.0,
+    "PERC65PLUS": 10.586881472957424
+  },
+  {
+    "COMMUNE_NOM": "Saeul",
+    "YEAR": "2021",
+    "POP65PLUS": 100.0,
+    "PERC65PLUS": 10.49317943336831
+  },
+  {
+    "COMMUNE_NOM": "Saeul",
+    "YEAR": "2022",
+    "POP65PLUS": 106.0,
+    "PERC65PLUS": 10.728744939271255
+  },
+  {
+    "COMMUNE_NOM": "Saeul",
+    "YEAR": "2023",
+    "POP65PLUS": 105.0,
+    "PERC65PLUS": 10.703363914373089
+  },
+  {
+    "COMMUNE_NOM": "Saeul",
+    "YEAR": "2024",
+    "POP65PLUS": 111.0,
+    "PERC65PLUS": 10.829268292682928
+  },
+  {
+    "COMMUNE_NOM": "Saeul",
+    "YEAR": "2025",
+    "POP65PLUS": 110.0,
+    "PERC65PLUS": 10.28999064546305
+  },
+  {
+    "COMMUNE_NOM": "Sandweiler",
+    "YEAR": "2020",
+    "POP65PLUS": 548.0,
+    "PERC65PLUS": 15.005476451259584
+  },
+  {
+    "COMMUNE_NOM": "Sandweiler",
+    "YEAR": "2021",
+    "POP65PLUS": 549.0,
+    "PERC65PLUS": 14.706670238414144
+  },
+  {
+    "COMMUNE_NOM": "Sandweiler",
+    "YEAR": "2022",
+    "POP65PLUS": 573.0,
+    "PERC65PLUS": 14.783281733746133
+  },
+  {
+    "COMMUNE_NOM": "Sandweiler",
+    "YEAR": "2023",
+    "POP65PLUS": 585.0,
+    "PERC65PLUS": 15.36643026004728
+  },
+  {
+    "COMMUNE_NOM": "Sandweiler",
+    "YEAR": "2024",
+    "POP65PLUS": 586.0,
+    "PERC65PLUS": 15.126484254001031
+  },
+  {
+    "COMMUNE_NOM": "Sandweiler",
+    "YEAR": "2025",
+    "POP65PLUS": 616.0,
+    "PERC65PLUS": 15.876288659793811
+  },
+  {
+    "COMMUNE_NOM": "Sanem",
+    "YEAR": "2020",
+    "POP65PLUS": 2813.0,
+    "PERC65PLUS": 15.877405881356893
+  },
+  {
+    "COMMUNE_NOM": "Sanem",
+    "YEAR": "2021",
+    "POP65PLUS": 2875.0,
+    "PERC65PLUS": 15.98376605326069
+  },
+  {
+    "COMMUNE_NOM": "Sanem",
+    "YEAR": "2022",
+    "POP65PLUS": 2953.0,
+    "PERC65PLUS": 16.17993534600844
+  },
+  {
+    "COMMUNE_NOM": "Sanem",
+    "YEAR": "2023",
+    "POP65PLUS": 3005.0,
+    "PERC65PLUS": 16.22219822932412
+  },
+  {
+    "COMMUNE_NOM": "Sanem",
+    "YEAR": "2024",
+    "POP65PLUS": 3109.0,
+    "PERC65PLUS": 16.290280324862458
+  },
+  {
+    "COMMUNE_NOM": "Sanem",
+    "YEAR": "2025",
+    "POP65PLUS": 3180.0,
+    "PERC65PLUS": 16.303511920020508
+  },
+  {
+    "COMMUNE_NOM": "Schengen",
+    "YEAR": "2020",
+    "POP65PLUS": 776.0,
+    "PERC65PLUS": 15.743558531142218
+  },
+  {
+    "COMMUNE_NOM": "Schengen",
+    "YEAR": "2021",
+    "POP65PLUS": 822.0,
+    "PERC65PLUS": 16.19385342789598
+  },
+  {
+    "COMMUNE_NOM": "Schengen",
+    "YEAR": "2022",
+    "POP65PLUS": 852.0,
+    "PERC65PLUS": 16.441528367425704
+  },
+  {
+    "COMMUNE_NOM": "Schengen",
+    "YEAR": "2023",
+    "POP65PLUS": 878.0,
+    "PERC65PLUS": 16.966183574879228
+  },
+  {
+    "COMMUNE_NOM": "Schengen",
+    "YEAR": "2024",
+    "POP65PLUS": 911.0,
+    "PERC65PLUS": 17.46883988494727
+  },
+  {
+    "COMMUNE_NOM": "Schengen",
+    "YEAR": "2025",
+    "POP65PLUS": 937.0,
+    "PERC65PLUS": 17.847619047619048
+  },
+  {
+    "COMMUNE_NOM": "Schieren",
+    "YEAR": "2020",
+    "POP65PLUS": 278.0,
+    "PERC65PLUS": 13.614103819784528
+  },
+  {
+    "COMMUNE_NOM": "Schieren",
+    "YEAR": "2021",
+    "POP65PLUS": 290.0,
+    "PERC65PLUS": 13.75059269796112
+  },
+  {
+    "COMMUNE_NOM": "Schieren",
+    "YEAR": "2022",
+    "POP65PLUS": 313.0,
+    "PERC65PLUS": 14.585274930102516
+  },
+  {
+    "COMMUNE_NOM": "Schieren",
+    "YEAR": "2023",
+    "POP65PLUS": 319.0,
+    "PERC65PLUS": 14.913510986442263
+  },
+  {
+    "COMMUNE_NOM": "Schieren",
+    "YEAR": "2024",
+    "POP65PLUS": 320.0,
+    "PERC65PLUS": 15.073009891662744
+  },
+  {
+    "COMMUNE_NOM": "Schieren",
+    "YEAR": "2025",
+    "POP65PLUS": 336.0,
+    "PERC65PLUS": 15.426997245179065
+  },
+  {
+    "COMMUNE_NOM": "Schifflange",
+    "YEAR": "2020",
+    "POP65PLUS": 1709.0,
+    "PERC65PLUS": 15.111857812361835
+  },
+  {
+    "COMMUNE_NOM": "Schifflange",
+    "YEAR": "2021",
+    "POP65PLUS": 1716.0,
+    "PERC65PLUS": 15.448325531148722
+  },
+  {
+    "COMMUNE_NOM": "Schifflange",
+    "YEAR": "2022",
+    "POP65PLUS": 1727.0,
+    "PERC65PLUS": 15.24675553986051
+  },
+  {
+    "COMMUNE_NOM": "Schifflange",
+    "YEAR": "2023",
+    "POP65PLUS": 1787.0,
+    "PERC65PLUS": 15.556716287977714
+  },
+  {
+    "COMMUNE_NOM": "Schifflange",
+    "YEAR": "2024",
+    "POP65PLUS": 1837.0,
+    "PERC65PLUS": 15.85123824316162
+  },
+  {
+    "COMMUNE_NOM": "Schifflange",
+    "YEAR": "2025",
+    "POP65PLUS": 1859.0,
+    "PERC65PLUS": 15.972162556920695
+  },
+  {
+    "COMMUNE_NOM": "Schuttrange",
+    "YEAR": "2020",
+    "POP65PLUS": 614.0,
+    "PERC65PLUS": 14.329054842473743
+  },
+  {
+    "COMMUNE_NOM": "Schuttrange",
+    "YEAR": "2021",
+    "POP65PLUS": 658.0,
+    "PERC65PLUS": 15.36306327340649
+  },
+  {
+    "COMMUNE_NOM": "Schuttrange",
+    "YEAR": "2022",
+    "POP65PLUS": 684.0,
+    "PERC65PLUS": 15.556060950648169
+  },
+  {
+    "COMMUNE_NOM": "Schuttrange",
+    "YEAR": "2023",
+    "POP65PLUS": 717.0,
+    "PERC65PLUS": 16.166854565952647
+  },
+  {
+    "COMMUNE_NOM": "Schuttrange",
+    "YEAR": "2024",
+    "POP65PLUS": 754.0,
+    "PERC65PLUS": 16.883116883116884
+  },
+  {
+    "COMMUNE_NOM": "Schuttrange",
+    "YEAR": "2025",
+    "POP65PLUS": 776.0,
+    "PERC65PLUS": 17.271310928110395
+  },
+  {
+    "COMMUNE_NOM": "Stadtbredimus",
+    "YEAR": "2020",
+    "POP65PLUS": 258.0,
+    "PERC65PLUS": 13.149847094801222
+  },
+  {
+    "COMMUNE_NOM": "Stadtbredimus",
+    "YEAR": "2021",
+    "POP65PLUS": 271.0,
+    "PERC65PLUS": 13.770325203252032
+  },
+  {
+    "COMMUNE_NOM": "Stadtbredimus",
+    "YEAR": "2022",
+    "POP65PLUS": 271.0,
+    "PERC65PLUS": 13.756345177664976
+  },
+  {
+    "COMMUNE_NOM": "Stadtbredimus",
+    "YEAR": "2023",
+    "POP65PLUS": 290.0,
+    "PERC65PLUS": 14.580191050779288
+  },
+  {
+    "COMMUNE_NOM": "Stadtbredimus",
+    "YEAR": "2024",
+    "POP65PLUS": 314.0,
+    "PERC65PLUS": 15.62966650074664
+  },
+  {
+    "COMMUNE_NOM": "Stadtbredimus",
+    "YEAR": "2025",
+    "POP65PLUS": 322.0,
+    "PERC65PLUS": 15.932706580900543
+  },
+  {
+    "COMMUNE_NOM": "Steinfort",
+    "YEAR": "2020",
+    "POP65PLUS": 894.0,
+    "PERC65PLUS": 15.935828877005347
+  },
+  {
+    "COMMUNE_NOM": "Steinfort",
+    "YEAR": "2021",
+    "POP65PLUS": 942.0,
+    "PERC65PLUS": 16.526315789473685
+  },
+  {
+    "COMMUNE_NOM": "Steinfort",
+    "YEAR": "2022",
+    "POP65PLUS": 998.0,
+    "PERC65PLUS": 17.01329696556427
+  },
+  {
+    "COMMUNE_NOM": "Steinfort",
+    "YEAR": "2023",
+    "POP65PLUS": 1024.0,
+    "PERC65PLUS": 17.14668452779638
+  },
+  {
+    "COMMUNE_NOM": "Steinfort",
+    "YEAR": "2024",
+    "POP65PLUS": 1078.0,
+    "PERC65PLUS": 17.72734747574412
+  },
+  {
+    "COMMUNE_NOM": "Steinfort",
+    "YEAR": "2025",
+    "POP65PLUS": 1116.0,
+    "PERC65PLUS": 18.220408163265304
+  },
+  {
+    "COMMUNE_NOM": "Steinsel",
+    "YEAR": "2020",
+    "POP65PLUS": 1102.0,
+    "PERC65PLUS": 20.080174927113703
+  },
+  {
+    "COMMUNE_NOM": "Steinsel",
+    "YEAR": "2021",
+    "POP65PLUS": 1117.0,
+    "PERC65PLUS": 20.08631541089732
+  },
+  {
+    "COMMUNE_NOM": "Steinsel",
+    "YEAR": "2022",
+    "POP65PLUS": 1138.0,
+    "PERC65PLUS": 20.548934633441675
+  },
+  {
+    "COMMUNE_NOM": "Steinsel",
+    "YEAR": "2023",
+    "POP65PLUS": 1152.0,
+    "PERC65PLUS": 20.48728436777521
+  },
+  {
+    "COMMUNE_NOM": "Steinsel",
+    "YEAR": "2024",
+    "POP65PLUS": 1190.0,
+    "PERC65PLUS": 19.774011299435028
+  },
+  {
+    "COMMUNE_NOM": "Steinsel",
+    "YEAR": "2025",
+    "POP65PLUS": 1233.0,
+    "PERC65PLUS": 20.071626241250204
+  },
+  {
+    "COMMUNE_NOM": "Strassen",
+    "YEAR": "2020",
+    "POP65PLUS": 1345.0,
+    "PERC65PLUS": 13.339283943270852
+  },
+  {
+    "COMMUNE_NOM": "Strassen",
+    "YEAR": "2021",
+    "POP65PLUS": 1384.0,
+    "PERC65PLUS": 13.50771032598087
+  },
+  {
+    "COMMUNE_NOM": "Strassen",
+    "YEAR": "2022",
+    "POP65PLUS": 1436.0,
+    "PERC65PLUS": 13.702290076335878
+  },
+  {
+    "COMMUNE_NOM": "Strassen",
+    "YEAR": "2023",
+    "POP65PLUS": 1452.0,
+    "PERC65PLUS": 13.757816941444002
+  },
+  {
+    "COMMUNE_NOM": "Strassen",
+    "YEAR": "2024",
+    "POP65PLUS": 1485.0,
+    "PERC65PLUS": 13.960703205791106
+  },
+  {
+    "COMMUNE_NOM": "Strassen",
+    "YEAR": "2025",
+    "POP65PLUS": 1547.0,
+    "PERC65PLUS": 14.351980703219224
+  },
+  {
+    "COMMUNE_NOM": "Tandel",
+    "YEAR": "2020",
+    "POP65PLUS": 275.0,
+    "PERC65PLUS": 12.353998203054807
+  },
+  {
+    "COMMUNE_NOM": "Tandel",
+    "YEAR": "2021",
+    "POP65PLUS": 276.0,
+    "PERC65PLUS": 12.47175779484862
+  },
+  {
+    "COMMUNE_NOM": "Tandel",
+    "YEAR": "2022",
+    "POP65PLUS": 288.0,
+    "PERC65PLUS": 12.897447380206
+  },
+  {
+    "COMMUNE_NOM": "Tandel",
+    "YEAR": "2023",
+    "POP65PLUS": 298.0,
+    "PERC65PLUS": 13.053000438020147
+  },
+  {
+    "COMMUNE_NOM": "Tandel",
+    "YEAR": "2024",
+    "POP65PLUS": 315.0,
+    "PERC65PLUS": 13.427109974424551
+  },
+  {
+    "COMMUNE_NOM": "Tandel",
+    "YEAR": "2025",
+    "POP65PLUS": 317.0,
+    "PERC65PLUS": 13.296979865771814
+  },
+  {
+    "COMMUNE_NOM": "Troisvierges",
+    "YEAR": "2020",
+    "POP65PLUS": 476.0,
+    "PERC65PLUS": 14.398064125831825
+  },
+  {
+    "COMMUNE_NOM": "Troisvierges",
+    "YEAR": "2021",
+    "POP65PLUS": 497.0,
+    "PERC65PLUS": 14.34757505773672
+  },
+  {
+    "COMMUNE_NOM": "Troisvierges",
+    "YEAR": "2022",
+    "POP65PLUS": 518.0,
+    "PERC65PLUS": 14.670065137354856
+  },
+  {
+    "COMMUNE_NOM": "Troisvierges",
+    "YEAR": "2023",
+    "POP65PLUS": 559.0,
+    "PERC65PLUS": 15.61016475844736
+  },
+  {
+    "COMMUNE_NOM": "Troisvierges",
+    "YEAR": "2024",
+    "POP65PLUS": 601.0,
+    "PERC65PLUS": 16.447728516694035
+  },
+  {
+    "COMMUNE_NOM": "Troisvierges",
+    "YEAR": "2025",
+    "POP65PLUS": 607.0,
+    "PERC65PLUS": 16.54401744344508
+  },
+  {
+    "COMMUNE_NOM": "Useldange",
+    "YEAR": "2020",
+    "POP65PLUS": 236.0,
+    "PERC65PLUS": 12.09016393442623
+  },
+  {
+    "COMMUNE_NOM": "Useldange",
+    "YEAR": "2021",
+    "POP65PLUS": 256.0,
+    "PERC65PLUS": 12.654473554127533
+  },
+  {
+    "COMMUNE_NOM": "Useldange",
+    "YEAR": "2022",
+    "POP65PLUS": 272.0,
+    "PERC65PLUS": 13.28125
+  },
+  {
+    "COMMUNE_NOM": "Useldange",
+    "YEAR": "2023",
+    "POP65PLUS": 289.0,
+    "PERC65PLUS": 13.555347091932456
+  },
+  {
+    "COMMUNE_NOM": "Useldange",
+    "YEAR": "2024",
+    "POP65PLUS": 306.0,
+    "PERC65PLUS": 14.25244527247322
+  },
+  {
+    "COMMUNE_NOM": "Useldange",
+    "YEAR": "2025",
+    "POP65PLUS": 312.0,
+    "PERC65PLUS": 14.504881450488144
+  },
+  {
+    "COMMUNE_NOM": "Vallée de l'Ernz",
+    "YEAR": "2020",
+    "POP65PLUS": 311.0,
+    "PERC65PLUS": 11.505734369219386
+  },
+  {
+    "COMMUNE_NOM": "Vallée de l'Ernz",
+    "YEAR": "2021",
+    "POP65PLUS": 324.0,
+    "PERC65PLUS": 12.026726057906458
+  },
+  {
+    "COMMUNE_NOM": "Vallée de l'Ernz",
+    "YEAR": "2022",
+    "POP65PLUS": 335.0,
+    "PERC65PLUS": 12.1464829586657
+  },
+  {
+    "COMMUNE_NOM": "Vallée de l'Ernz",
+    "YEAR": "2023",
+    "POP65PLUS": 348.0,
+    "PERC65PLUS": 12.393162393162394
+  },
+  {
+    "COMMUNE_NOM": "Vallée de l'Ernz",
+    "YEAR": "2024",
+    "POP65PLUS": 370.0,
+    "PERC65PLUS": 12.91899441340782
+  },
+  {
+    "COMMUNE_NOM": "Vallée de l'Ernz",
+    "YEAR": "2025",
+    "POP65PLUS": 388.0,
+    "PERC65PLUS": 13.183826027862724
+  },
+  {
+    "COMMUNE_NOM": "Vianden",
+    "YEAR": "2020",
+    "POP65PLUS": 350.0,
+    "PERC65PLUS": 16.416510318949342
+  },
+  {
+    "COMMUNE_NOM": "Vianden",
+    "YEAR": "2021",
+    "POP65PLUS": 372.0,
+    "PERC65PLUS": 17.05639614855571
+  },
+  {
+    "COMMUNE_NOM": "Vianden",
+    "YEAR": "2022",
+    "POP65PLUS": 384.0,
+    "PERC65PLUS": 17.407071622846782
+  },
+  {
+    "COMMUNE_NOM": "Vianden",
+    "YEAR": "2023",
+    "POP65PLUS": 396.0,
+    "PERC65PLUS": 17.89426118391324
+  },
+  {
+    "COMMUNE_NOM": "Vianden",
+    "YEAR": "2024",
+    "POP65PLUS": 397.0,
+    "PERC65PLUS": 17.874831157136427
+  },
+  {
+    "COMMUNE_NOM": "Vianden",
+    "YEAR": "2025",
+    "POP65PLUS": 421.0,
+    "PERC65PLUS": 18.88739344997757
+  },
+  {
+    "COMMUNE_NOM": "Vichten",
+    "YEAR": "2020",
+    "POP65PLUS": 154.0,
+    "PERC65PLUS": 11.56156156156156
+  },
+  {
+    "COMMUNE_NOM": "Vichten",
+    "YEAR": "2021",
+    "POP65PLUS": 163.0,
+    "PERC65PLUS": 11.98529411764706
+  },
+  {
+    "COMMUNE_NOM": "Vichten",
+    "YEAR": "2022",
+    "POP65PLUS": 172.0,
+    "PERC65PLUS": 12.181303116147308
+  },
+  {
+    "COMMUNE_NOM": "Vichten",
+    "YEAR": "2023",
+    "POP65PLUS": 175.0,
+    "PERC65PLUS": 12.384996461429584
+  },
+  {
+    "COMMUNE_NOM": "Vichten",
+    "YEAR": "2024",
+    "POP65PLUS": 186.0,
+    "PERC65PLUS": 12.997903563941298
+  },
+  {
+    "COMMUNE_NOM": "Vichten",
+    "YEAR": "2025",
+    "POP65PLUS": 199.0,
+    "PERC65PLUS": 13.7336093857833
+  },
+  {
+    "COMMUNE_NOM": "Waldbillig",
+    "YEAR": "2020",
+    "POP65PLUS": 181.0,
+    "PERC65PLUS": 9.58686440677966
+  },
+  {
+    "COMMUNE_NOM": "Waldbillig",
+    "YEAR": "2021",
+    "POP65PLUS": 191.0,
+    "PERC65PLUS": 9.942738157209789
+  },
+  {
+    "COMMUNE_NOM": "Waldbillig",
+    "YEAR": "2022",
+    "POP65PLUS": 200.0,
+    "PERC65PLUS": 10.245901639344265
+  },
+  {
+    "COMMUNE_NOM": "Waldbillig",
+    "YEAR": "2023",
+    "POP65PLUS": 210.0,
+    "PERC65PLUS": 10.741687979539645
+  },
+  {
+    "COMMUNE_NOM": "Waldbillig",
+    "YEAR": "2024",
+    "POP65PLUS": 227.0,
+    "PERC65PLUS": 11.511156186612576
+  },
+  {
+    "COMMUNE_NOM": "Waldbillig",
+    "YEAR": "2025",
+    "POP65PLUS": 245.0,
+    "PERC65PLUS": 12.36749116607774
+  },
+  {
+    "COMMUNE_NOM": "Walferdange",
+    "YEAR": "2020",
+    "POP65PLUS": 1339.0,
+    "PERC65PLUS": 15.876215318947118
+  },
+  {
+    "COMMUNE_NOM": "Walferdange",
+    "YEAR": "2021",
+    "POP65PLUS": 1339.0,
+    "PERC65PLUS": 15.697538100820632
+  },
+  {
+    "COMMUNE_NOM": "Walferdange",
+    "YEAR": "2022",
+    "POP65PLUS": 1339.0,
+    "PERC65PLUS": 15.479768786127169
+  },
+  {
+    "COMMUNE_NOM": "Walferdange",
+    "YEAR": "2023",
+    "POP65PLUS": 1365.0,
+    "PERC65PLUS": 15.399368231046932
+  },
+  {
+    "COMMUNE_NOM": "Walferdange",
+    "YEAR": "2024",
+    "POP65PLUS": 1395.0,
+    "PERC65PLUS": 15.609264853977844
+  },
+  {
+    "COMMUNE_NOM": "Walferdange",
+    "YEAR": "2025",
+    "POP65PLUS": 1413.0,
+    "PERC65PLUS": 15.435875027310466
+  },
+  {
+    "COMMUNE_NOM": "Weiler-la-Tour",
+    "YEAR": "2020",
+    "POP65PLUS": 320.0,
+    "PERC65PLUS": 13.217678645187938
+  },
+  {
+    "COMMUNE_NOM": "Weiler-la-Tour",
+    "YEAR": "2021",
+    "POP65PLUS": 331.0,
+    "PERC65PLUS": 13.287836210357288
+  },
+  {
+    "COMMUNE_NOM": "Weiler-la-Tour",
+    "YEAR": "2022",
+    "POP65PLUS": 336.0,
+    "PERC65PLUS": 13.54292623941959
+  },
+  {
+    "COMMUNE_NOM": "Weiler-la-Tour",
+    "YEAR": "2023",
+    "POP65PLUS": 354.0,
+    "PERC65PLUS": 14.058776806989677
+  },
+  {
+    "COMMUNE_NOM": "Weiler-la-Tour",
+    "YEAR": "2024",
+    "POP65PLUS": 363.0,
+    "PERC65PLUS": 14.41048034934498
+  },
+  {
+    "COMMUNE_NOM": "Weiler-la-Tour",
+    "YEAR": "2025",
+    "POP65PLUS": 370.0,
+    "PERC65PLUS": 14.729299363057324
+  },
+  {
+    "COMMUNE_NOM": "Weiswampach",
+    "YEAR": "2020",
+    "POP65PLUS": 311.0,
+    "PERC65PLUS": 15.133819951338198
+  },
+  {
+    "COMMUNE_NOM": "Weiswampach",
+    "YEAR": "2021",
+    "POP65PLUS": 345.0,
+    "PERC65PLUS": 15.639165911151409
+  },
+  {
+    "COMMUNE_NOM": "Weiswampach",
+    "YEAR": "2022",
+    "POP65PLUS": 361.0,
+    "PERC65PLUS": 15.63447379818103
+  },
+  {
+    "COMMUNE_NOM": "Weiswampach",
+    "YEAR": "2023",
+    "POP65PLUS": 383.0,
+    "PERC65PLUS": 16.038525963149077
+  },
+  {
+    "COMMUNE_NOM": "Weiswampach",
+    "YEAR": "2024",
+    "POP65PLUS": 413.0,
+    "PERC65PLUS": 15.745329775066718
+  },
+  {
+    "COMMUNE_NOM": "Weiswampach",
+    "YEAR": "2025",
+    "POP65PLUS": 422.0,
+    "PERC65PLUS": 15.817091454272864
+  },
+  {
+    "COMMUNE_NOM": "Wiltz",
+    "YEAR": "2020",
+    "POP65PLUS": 1021.0,
+    "PERC65PLUS": 13.62423271950894
+  },
+  {
+    "COMMUNE_NOM": "Wiltz",
+    "YEAR": "2021",
+    "POP65PLUS": 1051.0,
+    "PERC65PLUS": 13.665323104927838
+  },
+  {
+    "COMMUNE_NOM": "Wiltz",
+    "YEAR": "2022",
+    "POP65PLUS": 1085.0,
+    "PERC65PLUS": 13.7202832574608
+  },
+  {
+    "COMMUNE_NOM": "Wiltz",
+    "YEAR": "2023",
+    "POP65PLUS": 1157.0,
+    "PERC65PLUS": 14.287478389725855
+  },
+  {
+    "COMMUNE_NOM": "Wiltz",
+    "YEAR": "2024",
+    "POP65PLUS": 1176.0,
+    "PERC65PLUS": 14.151624548736464
+  },
+  {
+    "COMMUNE_NOM": "Wiltz",
+    "YEAR": "2025",
+    "POP65PLUS": 1200.0,
+    "PERC65PLUS": 14.140938015555031
+  },
+  {
+    "COMMUNE_NOM": "Wincrange",
+    "YEAR": "2020",
+    "POP65PLUS": 666.0,
+    "PERC65PLUS": 14.630931458699472
+  },
+  {
+    "COMMUNE_NOM": "Wincrange",
+    "YEAR": "2021",
+    "POP65PLUS": 696.0,
+    "PERC65PLUS": 14.958091553836232
+  },
+  {
+    "COMMUNE_NOM": "Wincrange",
+    "YEAR": "2022",
+    "POP65PLUS": 693.0,
+    "PERC65PLUS": 14.4375
+  },
+  {
+    "COMMUNE_NOM": "Wincrange",
+    "YEAR": "2023",
+    "POP65PLUS": 727.0,
+    "PERC65PLUS": 14.842792976725194
+  },
+  {
+    "COMMUNE_NOM": "Wincrange",
+    "YEAR": "2024",
+    "POP65PLUS": 777.0,
+    "PERC65PLUS": 15.533786485405836
+  },
+  {
+    "COMMUNE_NOM": "Wincrange",
+    "YEAR": "2025",
+    "POP65PLUS": 809.0,
+    "PERC65PLUS": 16.09309727471653
+  },
+  {
+    "COMMUNE_NOM": "Winseler",
+    "YEAR": "2020",
+    "POP65PLUS": 261.0,
+    "PERC65PLUS": 18.576512455516013
+  },
+  {
+    "COMMUNE_NOM": "Winseler",
+    "YEAR": "2021",
+    "POP65PLUS": 260.0,
+    "PERC65PLUS": 18.531717747683533
+  },
+  {
+    "COMMUNE_NOM": "Winseler",
+    "YEAR": "2022",
+    "POP65PLUS": 277.0,
+    "PERC65PLUS": 18.9596167008898
+  },
+  {
+    "COMMUNE_NOM": "Winseler",
+    "YEAR": "2023",
+    "POP65PLUS": 290.0,
+    "PERC65PLUS": 19.463087248322147
+  },
+  {
+    "COMMUNE_NOM": "Winseler",
+    "YEAR": "2024",
+    "POP65PLUS": 298.0,
+    "PERC65PLUS": 19.41368078175896
+  },
+  {
+    "COMMUNE_NOM": "Winseler",
+    "YEAR": "2025",
+    "POP65PLUS": 306.0,
+    "PERC65PLUS": 19.379354021532617
+  },
+  {
+    "COMMUNE_NOM": "Wormeldange",
+    "YEAR": "2020",
+    "POP65PLUS": 502.0,
+    "PERC65PLUS": 16.42670157068063
+  },
+  {
+    "COMMUNE_NOM": "Wormeldange",
+    "YEAR": "2021",
+    "POP65PLUS": 524.0,
+    "PERC65PLUS": 17.1353826030085
+  },
+  {
+    "COMMUNE_NOM": "Wormeldange",
+    "YEAR": "2022",
+    "POP65PLUS": 554.0,
+    "PERC65PLUS": 17.5483053531834
+  },
+  {
+    "COMMUNE_NOM": "Wormeldange",
+    "YEAR": "2023",
+    "POP65PLUS": 565.0,
+    "PERC65PLUS": 17.66176930290716
+  },
+  {
+    "COMMUNE_NOM": "Wormeldange",
+    "YEAR": "2024",
+    "POP65PLUS": 588.0,
+    "PERC65PLUS": 18.064516129032256
+  },
+  {
+    "COMMUNE_NOM": "Wormeldange",
+    "YEAR": "2025",
+    "POP65PLUS": 598.0,
+    "PERC65PLUS": 18.496752242499227
+  }
+]
