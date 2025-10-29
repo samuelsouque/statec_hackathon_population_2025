@@ -102,3 +102,38 @@
         font-weight: bold;
     }
 }
+
+/* ---- CARD PER LA PERCENTUALE ---- */
+.info-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    margin: 0 auto 30px auto;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+ 
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+ 
+.info-card h3 {
+    color: var(--primary);
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+ 
+.info-card .big-number {
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--accent);
+    margin: 5px 0;
+}
+ 
+.info-card .info-desc {
+    color: #666;
+    font-size: 1em;
+}

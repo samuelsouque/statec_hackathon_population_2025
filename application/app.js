@@ -193,26 +193,33 @@ angular.module('myApp', [])
 };
 
 
-        // Init Luxembourg's map
+        $scope.Mapyears = ["2020", "2021", "2022", "2023", "2024", "2025"];
+        $scope.selectedMapYear = "2025"
+
         $scope.initMap = function() {
-            const luxembourgCoordinates = [49.8153, 6.1296];
-            const zoomLevel = 9;
+        const luxembourgCoordinates = [49.8153, 6.1296];
+        const zoomLevel = 9;
 
-            $scope.map = L.map('map').setView(luxembourgCoordinates, zoomLevel);
+        $scope.map = L.map('map').setView(luxembourgCoordinates, zoomLevel);
 
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo($scope.map);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo($scope.map);
 
-            //L.marker(luxembourgCoordinates).addTo($scope.map)
-            //    .bindPopup('Luxembourg')
-            //    .openPopup();
+        $scope.updateMap(); // load initial map layer
+    };
 
-            // Administrative limits of Luxembourg
+        // Function to update the map based on selected year
+        $scope.updateMap = function() {
+            // Remove existing geoJSON layer if exists
+            if ($scope.geojsonLayer) {
+                $scope.map.removeLayer($scope.geojsonLayer);
+            }
+
             $http.get('limadmin.geojson').then(function(response) {
                 var geojson = response.data['communes'];
 
-                var filtered_pop65 = $scope.pop65.filter(item => item.YEAR === "2025") // Year between "2020" and "2025"
+                var filtered_pop65 = $scope.pop65.filter(item => item.YEAR === $scope.selectedMapYear);
 
                 var pop65ByCommune = filtered_pop65.reduce(function(acc, item) {
                     if (!acc[item.COMMUNE_NOM]) {
@@ -222,37 +229,20 @@ angular.module('myApp', [])
                     return acc;
                 }, {});
 
-                L.geoJSON(geojson, {
+                $scope.geojsonLayer = L.geoJSON(geojson, {
                     style: function(feature) {
-                        if ((typeof pop65ByCommune[feature.properties.COMMUNE] === 'undefined') || (typeof (pop65ByCommune[feature.properties.COMMUNE][0]) === 'undefined')) {
-                            console.log(feature.properties.COMMUNE)//, pop65ByCommune[feature.properties.COMMUNE][0]['PERC65PLUS'])
+                        if (!pop65ByCommune[feature.properties.COMMUNE] || !pop65ByCommune[feature.properties.COMMUNE][0]) {
+                            return { weight: 1, fillColor: '#ccc', fillOpacity: 0.7 }; // default style
                         } else {
-                        return {
-                            //color: $scope.getColor(feature.properties.PERC65PLUS),
-                            weight: 1,
-                            fillColor: $scope.getColor(pop65ByCommune[feature.properties.COMMUNE][0]['PERC65PLUS']),
-                            fillOpacity: 0.7
-                        };
+                            return {
+                                weight: 1,
+                                fillColor: $scope.getColor(pop65ByCommune[feature.properties.COMMUNE][0]['PERC65PLUS']),
+                                fillOpacity: 0.7
+                            };
+                        }
                     }
-                }
                 }).addTo($scope.map);
             });
-
-            // Add legend
-            // const legend = L.control({ position: 'bottomright' });
-            // legend.onAdd = function(map) {
-            // const div = L.DomUtil.create('div', 'info legend');
-            // const grades = [0, 4.07, 8.135, 12.2, 16.27];
-            // const labels = [];
-            // grades.forEach((grade, index) => {
-            //     labels.push(
-            //     `<i style="background:${getColor(grade)}"></i> ${grade}${grades[index + 1] ? `–${grades[index + 1]}` : '+'}`
-            //     );
-            // });
-            // div.innerHTML = labels.join('<br>');
-            // return div;
-            // };
-            // legend.addTo($scope.map);
         };
 
         // Function for heatmap color

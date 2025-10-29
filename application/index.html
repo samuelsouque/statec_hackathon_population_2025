@@ -54,6 +54,9 @@
             <button class="nav-btn" ng-click="showView('map')" ng-class="{'active': currentView === 'map'}">
                 <i class="fas fa-map-marked-alt"></i> Carte
             </button>
+            <button class="nav-btn" ng-click="showView('info')" ng-class="{'active': currentView === 'info'}">
+                <i class="fas fa-info-circle"></i> Info
+            </button>
         </div>
 
 
@@ -74,10 +77,22 @@
 
         <!-- Conteneur pour la carte -->
         <div id="mapContainer">
+
+            <select ng-model="selectedMapYear" ng-change="updateMap()">
+                <option ng-repeat="year in Mapyears" value="{{year}}">{{year}}</option>
+            </select>
+
             <div id="map"></div>
         </div>
 
         <div id="infoContainer" ng-show="currentView === 'info'">
+
+            <div class="info-card">
+                <p class="big-number">36.37%</p>
+                <p class="info-desc">Part de la population âgées de 65 ans et plus vivant dans un logement privé ne vivent pas avec un noyau familial</p>
+            </div>
+
+
             <p> Entrez votre commune pour découvrir les clubs, services et associations près de chez vous. </p>
             <div id="here" ng-controller="SearchCtrl">
                 <input type="text" ng-model="searchQuery" placeholder="Search commune..." ng-change="filterResults()" />
