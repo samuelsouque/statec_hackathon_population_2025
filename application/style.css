@@ -177,3 +177,43 @@ button:hover, .btn:hover {
     background-color: #0056b3;
     transform: scale(1.1);
 }
+
+/* Dropdown for Map Page aligned to the right */
+#mapContainer select {
+  display: block;
+  margin: 20px 20px 20px auto; /* top right bottom left -> auto pushes it to the right */
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: var(--primary, #007bff);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-align: center;
+  min-width: 150px;
+  max-width: 200px;
+  float: right; /* extra measure to keep it right-aligned */
+}
+
+/* Hover effect */
+#mapContainer select:hover {
+  background-color: var(--accent, #0056b3);
+}
+
+/* Focus effect */
+#mapContainer select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+}
+
+/* Custom arrow */
+#mapContainer select {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px 12px;
+}
