@@ -78,7 +78,7 @@
         </div>
 
         <div id="infoContainer" ng-show="currentView === 'info'">
-            <p> [Text placeholder for a catchy phrase!]</p>
+            <p>  </p>
             <div id="here" ng-controller="SearchCtrl">
                 <input type="text" ng-model="searchQuery" placeholder="Search commune..." ng-change="filterResults()" />
                     <table>
@@ -91,6 +91,18 @@
             </div>
     </div>
 
-</div>
+    </div>
+
+    <!-- Navigation Buttons (Bottom Right Corner) -->
+    <div id="pageNavigation">
+        <button id="prevPage" class="dash-btn" ng-click="previousPage()">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+        <button id="nextPage" class="dash-btn" ng-click="nextPage()">
+            <i class="fas fa-arrow-right"></i>
+        </button>
+    </div>
+
+
 </body>
 </html>

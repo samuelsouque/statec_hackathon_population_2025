@@ -49,6 +49,25 @@ angular.module('myApp', [])
             }
         };
 
+        // Order of views for navigation
+        $scope.views = ['chart', 'map', 'info'];
+
+        // Function to go to the next view
+        $scope.nextPage = function() {
+            let currentIndex = $scope.views.indexOf($scope.currentView);
+            let nextIndex = (currentIndex + 1) % $scope.views.length; // Loop around
+            $scope.showView($scope.views[nextIndex]);
+        };
+
+        // Function to go to the previous view
+        $scope.previousPage = function() {
+            let currentIndex = $scope.views.indexOf($scope.currentView);
+            let prevIndex = (currentIndex - 1 + $scope.views.length) % $scope.views.length; // Loop around
+            $scope.showView($scope.views[prevIndex]);
+        };
+
+
+
         // Init graph
 $scope.updateChart = function() {
     const filteredData = {};
@@ -287,7 +306,6 @@ $scope.updateChart = function() {
             //   { commune: "Bech", lien: "https://...", "texte lien": "Le Service Seniors" },
             //   ...
             // ]
-            console.log(json)
             $scope.allData = json;
             $scope.filteredResults = [...$scope.allData];
         });
