@@ -69,7 +69,7 @@ angular.module('myApp', [])
 
 
         // Init graph
-$scope.updateChart = function() {
+        $scope.updateChart = function() {
     const filteredData = {};
     for (let year = $scope.startYear; year <= $scope.endYear; year++) {
         if ($scope.data[year]) filteredData[year] = $scope.data[year];
@@ -154,33 +154,42 @@ $scope.updateChart = function() {
     }
 
     const ctx = document.getElementById('myChart').getContext('2d');
-    if ($scope.chart) $scope.chart.destroy();
 
-    $scope.chart = new Chart(ctx, {
-        type: 'line',
-        data: { datasets },
-        options: {
-            responsive: true,
-            interaction: { mode: 'index', intersect: false },
-            scales: {
-                x: {
-                    type: 'linear',
-                    title: { display: true, text: 'Year' }
+    if ($scope.chart) {
+        // Update existing chart data smoothly
+        $scope.chart.data.datasets = datasets;
+        $scope.chart.update('none'); // 'none' mode prevents animation
+    } else {
+        // Create it once
+        $scope.chart = new Chart(ctx, {
+            type: 'line',
+            data: { datasets },
+            options: {
+                responsive: true,
+                animation: {
+                    duration: 0 // Disable initial animation
                 },
-                y1: {
-                    position: 'left',
-                    title: { display: true, text: 'Years / Expectancy' },
-                    beginAtZero: false
-                },
-                y2: {
-                    position: 'right',
-                    title: { display: true, text: 'Beneficiaries (avg)' },
-                    grid: { drawOnChartArea: false },
-                    beginAtZero: true
+                interaction: { mode: 'index', intersect: false },
+                scales: {
+                    x: {
+                        type: 'linear',
+                        title: { display: true, text: 'Year' }
+                    },
+                    y1: {
+                        position: 'left',
+                        title: { display: true, text: 'Years / Expectancy' },
+                        beginAtZero: false
+                    },
+                    y2: {
+                        position: 'right',
+                        title: { display: true, text: 'Beneficiaries (avg)' },
+                        grid: { drawOnChartArea: false },
+                        beginAtZero: true
+                    }
                 }
             }
-        }
-    });
+        });
+    }
 };
 
 
