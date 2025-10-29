@@ -18,7 +18,7 @@ angular.module('myApp', [])
         });
 
         // Load map data
-        $http.get('POP65PLUS_commune_total.json').then(function(response) {
+        $http.get('Population_65plus_merged.json').then(function(response) {
             $scope.pop65 = response.data;
         });
 
