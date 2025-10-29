@@ -18,7 +18,7 @@ angular.module('myApp', [])
         });
 
         // Load map data
-        $http.get('Population_65plus_merged.json').then(function(response) {
+        $http.get('Population_65plus_long 1.json').then(function(response) {
             $scope.pop65 = response.data;
         });
 
@@ -212,7 +212,7 @@ angular.module('myApp', [])
             $http.get('limadmin.geojson').then(function(response) {
                 var geojson = response.data['communes'];
 
-                var filtered_pop65 = $scope.pop65.filter(item => item.YEAR === 2024)
+                var filtered_pop65 = $scope.pop65.filter(item => item.YEAR === "2025") // Year between "2020" and "2025"
 
                 var pop65ByCommune = filtered_pop65.reduce(function(acc, item) {
                     if (!acc[item.COMMUNE_NOM]) {
@@ -229,28 +229,13 @@ angular.module('myApp', [])
                         } else {
                         return {
                             //color: $scope.getColor(feature.properties.PERC65PLUS),
-                            weight: 0,
+                            weight: 1,
                             fillColor: $scope.getColor(pop65ByCommune[feature.properties.COMMUNE][0]['PERC65PLUS']),
-                            fillOpacity: 0.5
+                            fillOpacity: 0.7
                         };
                     }
                 }
                 }).addTo($scope.map);
-                    // if (feature.properties.COMMUNE === "Diekirch") { // Fill other countries in grey
-                    //     return {
-                    //         //color: "#cccccc",
-                    //         weight: 0,
-                    //         fillColor: "red",
-                    //         fillOpacity: 0.5
-                    //     };
-                    // } else if ( feature.properties.COMMUNE === "Bettendorf") {// No fill for Luxembourg
-                    //     return {
-                    //         //color: "white",
-                    //         weight: 0,
-                    //         fillColor: "blue",
-                    //         fillOpacity: 0.5
-                    //     };
-                    // }
             });
 
             // Add legend
