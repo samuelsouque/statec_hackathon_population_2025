@@ -24,17 +24,17 @@ angular.module('myApp', [])
 
         // Variables of current view
         $scope.currentView = 'chart';
-        $scope.currentTitle = 'Graphique Interactif (1990-2025)';
+        $scope.currentTitle = "Évolution de l'espérance de vie, de l'âge moyen de départ à la retraite et du nombre de pensionnés au Luxembourg, de 1990 à 2025";
 
         // Function to show a view
         $scope.showView = function(view) {
             $scope.currentView = view;
             if (view === 'chart') {
-                $scope.currentTitle = 'Graphique Interactif (1990-2025)';
+                $scope.currentTitle = "Évolution de l'espérance de vie, de l'âge moyen de départ à la retraite et du nombre de pensionnés au Luxembourg, de 1990 à 2025";
                 document.getElementById('chartContainer').style.display = 'block';
                 document.getElementById('mapContainer').style.display = 'none';
             } else if (view === 'map') {
-                $scope.currentTitle = 'Carte du Luxembourg';
+                $scope.currentTitle = 'Répartition des personnes âgée de 65 et plus par commune';
                 document.getElementById('chartContainer').style.display = 'none';
                 document.getElementById('mapContainer').style.display = 'block';
                 if (!$scope.mapInitialized) {
@@ -42,7 +42,7 @@ angular.module('myApp', [])
                     $scope.mapInitialized = true;
                 }
             } else if (view === 'info'){
-                $scope.currentTitle = 'Information';
+                $scope.currentTitle = 'Activité, services et associations pour seniors par commune';
                 document.getElementById('chartContainer').style.display = 'none';
                 document.getElementById('mapContainer').style.display = 'none';
                 document.getElementById('infoContainer').style.display = 'block';
