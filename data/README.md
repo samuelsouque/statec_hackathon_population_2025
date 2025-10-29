@@ -41,7 +41,7 @@
 	- Indicators: Mapping of Luxembourg by municipalities
 
  - Dataset 7:
-    - Time window: 2023
+    - Time window: 2021
 	- Filters used: None
 	- Indicators: % of people at age of 65+ that are living in private homes by themselves
 
