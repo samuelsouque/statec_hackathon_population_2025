@@ -1,4 +1,4 @@
-# Data Card - interactive graph for life expectancy, average pension age and part of the population receiving pensions
+# Data Card
 
 ## Sources
 - Dataset 1 — STATEC, https://lustat.statec.lu/vis?lc=en&tm=life%20expectancy&pg=0&snb=3&df[ds]=ds-release&df[id]=DF_B2209&df[ag]=LU1&df[vs]=1.0&dq=S01..A&pd=1991%2C2023&to[TIME_PERIOD]=false, Identifier: DF_B2209 — License: CC0 1.0 [https://creativecommons.org/publicdomain/zero/1.0/legalcode.en]
