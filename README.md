@@ -1,9 +1,9 @@
 # statec_hackathon_population_2025
 
 ## Main objectives
- * Illustrate how the time spent in retirement has evolved over the last 10 years 
- * Visualise the number of 65+ year olds living in Luxembourg
- * (TBC) Est-ce que les communes sont prêtes à accueillir la population vieillissante?
+ * Illustrate how the time spent in retirement has evolved over the last few decades
+ * Visualisation of the distribution of 65+ year olds living in Luxembourg according to municipalities
+ * What are communes offering to accomodate for the growing number of senior citizens?
  
  
 ## Project's structure
