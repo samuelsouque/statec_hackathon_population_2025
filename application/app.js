@@ -91,7 +91,7 @@ angular.module('myApp', [])
         }
         if (past.length) {
             datasets.push({
-                label: `${labelBase} (observed)`,
+                label: `${labelBase} (observée)`,
                 data: past,
                 borderColor: color,
                 tension: 0.1,
@@ -101,7 +101,7 @@ angular.module('myApp', [])
         }
         if (future.length) {
             datasets.push({
-                label: `${labelBase} (expected)`,
+                label: `${labelBase} (projection)`,
                 data: future,
                 borderColor: color,
                 borderDash: [6, 4],
@@ -113,9 +113,9 @@ angular.module('myApp', [])
     }
 
     // --- Line datasets
-    splitByYear(filteredData, 'retirement_age', 'rgb(75, 192, 192)', 'Retirement Age');
-    splitByYear(filteredData, 'life_m', 'rgb(255, 99, 132)', 'Life Expectancy Male');
-    splitByYear(filteredData, 'life_f', 'rgb(54, 162, 235)', 'Life Expectancy Female');
+    splitByYear(filteredData, 'retirement_age', 'rgb(75, 192, 192)', 'Âge moyen de départ à la retraite');
+    splitByYear(filteredData, 'life_m', 'rgb(255, 99, 132)', 'Espérance de vie des hommes');
+    splitByYear(filteredData, 'life_f', 'rgb(54, 162, 235)', 'Espérance de vie des femmes');
 
     // --- Bar (histogram) dataset: split past/future too
     const pointsBeneficiaryPast = [];
@@ -131,7 +131,7 @@ angular.module('myApp', [])
 
     if (pointsBeneficiaryPast.length) {
         datasets.push({
-            label: 'Beneficiaries (avg, observed)',
+            label: 'Nombre moyen de pensionnés (observé)',
             data: pointsBeneficiaryPast,
             type: 'bar',
             backgroundColor: 'rgba(255, 206, 86, 0.7)',
@@ -143,7 +143,7 @@ angular.module('myApp', [])
 
     if (pointsBeneficiaryFuture.length) {
         datasets.push({
-            label: 'Beneficiaries (avg, expected)',
+            label: 'Nombre moyen de pensionnés (projection)',
             data: pointsBeneficiaryFuture,
             type: 'bar',
             backgroundColor: 'rgba(255, 206, 86, 0.3)', // lighter
