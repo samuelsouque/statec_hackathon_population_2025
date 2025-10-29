@@ -207,7 +207,37 @@ angular.module('myApp', [])
         }).addTo($scope.map);
 
         $scope.updateMap(); // load initial map layer
+
+
+        // Add legend
+        $scope.legend = L.control({ position: 'bottomright' });
+
+        $scope.legend.onAdd = function(map) {
+            const div = L.DomUtil.create('div', 'info legend');
+            const grades = [8, 12, 16, 20, 25]; // Adjust based on your data domain
+            const colors = grades.map(g => $scope.getColor(g));
+
+            let labels = [];
+            for (let i = 0; i < grades.length; i++) {
+                const from = grades[i];
+                const to = grades[i + 1];
+                labels.push(
+                    '<i style="background:' + colors[i] + '"></i> ' +
+                    from + (to ? '&ndash;' + to : '+') + '%'
+                );
+            }
+            div.innerHTML = labels.join('<br>');
+            return div;
+        };
+
+// Add legend to map
+$scope.legend.addTo($scope.map);
+
+
+
     };
+
+        
 
         // Function to update the map based on selected year
         $scope.updateMap = function() {

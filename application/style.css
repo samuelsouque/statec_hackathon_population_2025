@@ -217,3 +217,20 @@ button:hover, .btn:hover {
   background-position: right 10px center;
   background-size: 12px 12px;
 }
+
+.info.legend {
+    background: white;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    font-size: 12px;
+    line-height: 18px;
+    color: #555;
+}
+.info.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
