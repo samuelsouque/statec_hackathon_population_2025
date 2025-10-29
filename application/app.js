@@ -257,7 +257,7 @@ angular.module('myApp', [])
 
         // Function for heatmap color
         $scope.getColor = function(value) {
-            const scale = chroma.scale(['blue', 'green', 'red']).domain([0, 16.27]);
+            const scale = chroma.scale(['blue', 'green', 'red']).domain([8.23, 25.6]);
             return scale(value).hex();
         }
 
